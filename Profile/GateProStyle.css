@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(150, 150, 150, 0.2);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background-image: url("2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*****************************************
+  *----------------------------------
+  |  ThisStyleVersion: 3.3        |
+  |  © 2021-2023 By Pusyuu        |
+  |  LastUpdate: 2023-04-22       |
+  |  ・。・ﾌﾟｼｭｰ・・・。          |
+----------------------------------*
+******************************************/
+
+/* 色、模様、サイズ調整部
+---------------------------------*/
+
+button {
+  margin: 10px;
+  background-color: #00ff00;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 34%;
+  height: auto;
+  border-style: none;
+}
+button:hover {
+  background-color: #fff;
+}
+
+p {
+ color: #FFF;
+}
+h1 {
+ color: #FF00F0;
+}
+h2 {
+  color: #000000;
+}
+
+h3 {
+  color: #00bfff;
+}
+
+ol {
+  padding-inline-start: 5px;
+}
+
+table {
+  margin: 10px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid green;
+}
+
+th {
+  border: 1px solid green;
+  padding: 5px;
+}
+
+tr {
+   border: 1px ridge;
+}
+
+td {
+  border: 1px solid green;
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.accaunt {
+  display: flex;
+}
+
+.gaiyou {
+  background-color: rgba(225,225,225, 0.5);
+  display: flex;
+  margin-top: 150px;
+  padding: 10px;
+}
+
+.content {
+  display: block;
+}
+
+.yohaku {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+}
+a:hover {
+  color: #00e600;
+}
+
+.article {
+  margin: 10px;
+  width: 80%;
+  height: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding: 10px;
+}
+
+/* プロフィール調整部
+---------------------------------*/
+
+.avator_image {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.profile_component {
+  background-color: rgba(250,255,255,0.7);
+  border-radius: 20px;
+  margin: 150px;
+  overflow: hidden;
+  display: flex;
+  box-shadow: 0 5px 20px rgba(100, 255, 255, 0.8);
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: auto;
+}
+.profile {
+  display: block;
+  padding: 10px;
+}
+
+/* レスポンシブ調整部
+---------------------------------*/
+
+@media only screen and (max-width:650px){
+
+.profile_component {
+  width: auto;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+.gaiyou {
+  background-color: rgba(225,225,225, 0.5);
+  display: block;
+}
+
+.accaunt {
+  display: block;
+}
+
+button {
+  font-size: 20px;
+  width: 94%;
+}
+
+}
