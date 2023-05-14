@@ -13,7 +13,7 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 14.4       |
+  |  ThisStyleVersion: 14.5       |
   |  © 2021-2023 By Pusyuu        |
   |  LastUpdate: 2023-05-14       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
@@ -842,17 +842,17 @@ textarea {
   color: #ffaa99;
 }
 
-ul {
+.nav_ul {
   padding-inline-start: 0;
 }
 
-ul li {
+.nav_li {
   list-style: none;
   min-width: 70px;
   transition: border;
 }
 
-ul li a {
+.nav_a {
   display: block;
   text-decoration: none;
   color: #fff000;
@@ -860,15 +860,7 @@ ul li a {
   padding: 3px;
 }
 
-ul li.current{
-  background-color: rgba(120,120,120,0.8);
-}
-
-ul li.current a {
-  color: #ff5500;
-}
-
-ul li a:hover {
+.nav_a:hover {
   border: 1px solid #00ff00;
   color: #fff;
   box-sizing: border-box;
@@ -1252,15 +1244,15 @@ ul li a:hover {
   color: #fff;
 }
 
-ul {
+.nav_ul {
   display: flex;
 }
 
-ul li {
+.nav_li {
   min-width: 20px;
 }
 
-ul li a {
+.nav_a {
   font-size: 10px;
   width: 100%;
 }
