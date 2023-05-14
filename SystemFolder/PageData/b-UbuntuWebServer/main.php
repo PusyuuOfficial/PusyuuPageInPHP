@@ -18,7 +18,7 @@
         </article>
         <article class="article" id="p3">
           <h3>様々なcgiを機能させる方法</h3>
-          <p>まずはWEBだと結構有名な、PHP CGIの機能させる方法です。まずはコマンドで（sudo apt-get install php）といれインストールします。次に（※干渉防止のため表示できません。そのため<a href="../DocData/b-phpinfo.txt">ここ</a>をクリックして閲覧ださい。）と書いたテキストファイルをindex.phpなどと名前を入力し、（/usr/lib/cgi-bin/）に入れ（注意、このリンクはindex.phpの場合のみ機能します。<a href="http://localhost/cgi-bin/index.php">ここ</a>）を開いてみてください。正常に動作していれば現在のPHP詳細が表示されます。次はpythonCGIを機能させる方法です。まず（apt -y install python）を入力し、pythonをインストールします。次にCGIの機能を有効かするために（a2enmod cgid）を実行します。次に（/etc/apache2/conf-available/cgi-enabled.conf）に（※干渉防止のため表示できません。そのため<a href="../DocData/b-cgisettings.txt">ここ</a>をクリックして閲覧ださい。）をいれ、CGIを機能させるために（a2enconf cgi-enabled）と（systemctl restart apache2）をコマンドで実行します。これで今回紹介した、CGIが機能するはずです。</p>
+          <p>まずはWEBだと結構有名な、PHP CGIの機能させる方法です。まずはコマンドで（sudo apt-get install php）といれインストールします。次に（※干渉防止のため表示できません。そのため<a href="../../DocData/b-phpinfo.txt">ここ</a>をクリックして閲覧ださい。）と書いたテキストファイルをindex.phpなどと名前を入力し、（/usr/lib/cgi-bin/）に入れ（注意、このリンクはindex.phpの場合のみ機能します。<a href="http://localhost/cgi-bin/index.php">ここ</a>）を開いてみてください。正常に動作していれば現在のPHP詳細が表示されます。次はpythonCGIを機能させる方法です。まず（apt -y install python）を入力し、pythonをインストールします。次にCGIの機能を有効かするために（a2enmod cgid）を実行します。次に（/etc/apache2/conf-available/cgi-enabled.conf）に（※干渉防止のため表示できません。そのため<a href="../../DocData/b-cgisettings.txt">ここ</a>をクリックして閲覧ださい。）をいれ、CGIを機能させるために（a2enconf cgi-enabled）と（systemctl restart apache2）をコマンドで実行します。これで今回紹介した、CGIが機能するはずです。</p>
         </article>
       </section>
     </div>

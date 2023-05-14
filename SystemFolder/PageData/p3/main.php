@@ -30,7 +30,8 @@
       <div class="yokoori">
         <article class="service_card">
           <a href="../s-TyaimuTukiTokeiOtamesi/content.php" class="service_card_link">
-            <div class="service_card_info"> <time class="service_card_time" datetime="2023-04-29">2023.04.29</time>
+            <div class="service_card_info">
+              <time class="service_card_time" datetime="2023-04-29">2023.04.29</time>
               <h1 class="service_card_headline">チャイム付き時計をここで試せます！！</h1>
               <p class="service_card_description">一度ダウンロードする前に使い心地などを試すことができます。</p>
             </div>
@@ -38,15 +39,17 @@
         </article>
         <article class="service_card">
           <a href="../s-yakudatenaipage2/content.php" class="service_card_link">
-            <div class="service_card_info"> <time class="service_card_time" datetime="2023-04-16">2022.04.16</time>
+            <div class="service_card_info">
+              <time class="service_card_time" datetime="2023-04-16">2022.04.16</time>
               <h1 class="service_card_headline">何の役にも立たないページ2</h1>
               <p class="service_card_description">重要な場所で使うのはお勧めしません。VideoタグにMP3で味付けしました。</p>
             </div>
           </a>
         </article>
         <article class="service_card">
-          <a href="../s-PusyuuAppOtamesi/contet.php" class="service_card_link">
-            <div class="service_card_info"> <time class="service_card_time" datetime="2022-11-25">2022.11.25</time>
+          <a href="../s-PusyuuAppOtamesi/content.php" class="service_card_link">
+            <div class="service_card_info">
+              <time class="service_card_time" datetime="2022-11-25">2022.11.25</time>
               <h1 class="service_card_headline">プシューサービスで初アプリをここでを試せます！！</h1>
               <p class="service_card_description">プシューアプリは、プシューが作ったミニWEBアプリや、ほかの人が作ったWEBアプリなどがあります。</p>
             </div>
@@ -54,7 +57,8 @@
         </article>
         <article class="service_card">
           <a href="#" class="service_card_link">
-            <div class="service_card_info"> <time class="service_card_time" datetime="0000-00-00">0000.00.00</time>
+            <div class="service_card_info">
+              <time class="service_card_time" datetime="0000-00-00">0000.00.00</time>
               <h1 class="service_card_headline">作成中</h1>
               <p class="service_card_description">...</p>
             </div>
@@ -62,7 +66,8 @@
         </article>
         <article class="service_card">
           <a href="../s-MultiMedia/" class="service_card_link">
-            <div class="service_card_info"> <time class="service_card_time" datetime="2020-07-03">2022.12.03</time>
+            <div class="service_card_info">
+              <time class="service_card_time" datetime="2020-07-03">2022.12.03</time>
               <h1 class="service_card_headline">マルチメディア</h1>
               <p class="service_card_description">音楽や動画の埋め込みを集めました。</p>
             </div>
@@ -70,7 +75,8 @@
         </article>
         <article class="service_card">
           <a href="../s-yakudatenaipage/content.php" class="service_card_link">
-            <div class="service_card_info"> <time class="service_card_time" datetime="2022-12-03">2022.12.03</time>
+            <div class="service_card_info">
+              <time class="service_card_time" datetime="2022-12-03">2022.12.03</time>
               <h1 class="service_card_headline">何の役にも立たないページ</h1>
               <p class="service_card_description">暇だったので、馬鹿になって作ってみたページですw</p>
             </div>
