@@ -9,13 +9,13 @@
           <p>大体のダウンロードサイトで言えること何ですけど このスマホはウィルスに感染しましたなどの偽情報が回っています。 通知を許可しますかなんて出てくるけど、絶対にその画面の指示に従わないこと！！</p>
           <h3>対処法</h3>
           <p>通知型の場合</p>
-          <img src="../ImageData/27.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <img src="../../ImageData/27.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           <p>通知表示みたいなポップアップ型の場合</p>
-          <img src="../ImageData/24.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <img src="../../ImageData/24.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           <p>偽ウィルスポップアップ型の場合</p>
-          <img src="../ImageData/26.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <img src="../../ImageData/26.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           <p>偽ウィルス新しいタブ型の場合</p>
-          <img src="../ImageData/25.gif" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <img src="../../ImageData/25.gif" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           <p>ブラウザの戻るボタンを押して元の画面に戻るかまたは閉じてかまいません。※たまにもどうをダブルタップする必要がある場合があります。</p>
           <h3>何故そんなことをするか</h3>
           <p>アプリをダウンロードさせたりして広告などで金儲けするため。 通知形は通知を許可すると通知画面に(あなたのスマホはウィルスに感染しました)見たいな通知を出し、 ブラウザ経由で表示させて、不安を煽り偽ウィルス画面に誘導させると言う目的です。 ですが怖がる必要はありません。眺めるだけ、すぐに閉じる。などさえ守れば何もおきません。</p>

@@ -11,7 +11,7 @@
         </ol>
         <article class="article" id="p1">
           <h3>携帯電話会社とは？</h3>
-          <img src="../ImageData/kangaeru.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <img src="../../ImageData/kangaeru.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           <p>今回は、携帯電話会社と契約しなくても生活は可能なのかを検証してみたのでブログにしてみました。 いつも皆さんが使っているそのスマートフォン、どこで契約されているでしょうか？ 大抵ですと王手三社（ドコモ、エーユー、ソフトバンク）だと思います。 携帯電話会社で契約をするとスマートフォンや、シムカード、ポケットWi-Fiなどの機器の購入や、契約の再変更などの様々な手続きを行うことができ、サポートもしてくれます。 そして更に裏では通信設備の管理、光回線や電話回線等の管理さらに、電波塔（基地局）の設置管理を行っています。 そんななくてはならない携帯電話会社に契約しないとライフラインは整わないのか、今回はそんな疑問を私の昔ばなしで解き明かしていきましょう。</p>
         </article>
         <article class="article" id="p2">
@@ -20,7 +20,7 @@
         </article>
         <article class="article" id="p3">
           <h3>解約したが最終的にどんな方法をとったのか</h3>
-          <img src="../ImageData/mayoi.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <img src="../../ImageData/mayoi.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           <p> 私が解約してから行った準備、それはまず電話は使えないと当時学生であり遅刻の連絡などの非常事態に電話できないと困ることが予想できたので、音声で通信できるサービスを探しました、そして見つけたのはSIP電話この電話はインターネット上から電話回線に接続して電話することができます、便利そうだったのでSIPサービスを選びました。 SIPプロバイダーは、ブラステルというプロバイダーにしました、何が決め手かといいますと、国際電話が利用可能、プリペイド式、チャージに支払い用紙を使いコンビニを使うことができる等々。 次に外でインターネットを使用する場合SIMカードが必要でした、そこで直面したのが、学生は親の同意なしでSIMカードの契約はできないということ、調べている内にプリペイドSIMという単語が、プリペイドシムを試しにAmazonで探したら、びっくり、結構たくさんありました。 その中から試しに買って使ってみたところ、物によっては通信事業者をその場で変更できてしまうものまでありました。そこまで速度も今までの携帯電話会社のSIMと変わりありませんし、結構なメリットを感じました。 一つデメリットとしては期限以内でデータを使い切らないともったいないのと、有効期限が切れる少し前に新しいプリペイドシムを購入しなければならないこと、私はこれくらいしかデメリットを感じませんでした。</p>
         </article>
         <article class="article" id="p4">
