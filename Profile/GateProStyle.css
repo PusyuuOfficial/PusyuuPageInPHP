@@ -116,6 +116,12 @@ a:hover {
   padding: 10px;
 }
 
+.gate_link_content {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid rgba(50,130,180,0.5);
+}
+
 /* プロフィール調整部
 ---------------------------------*/
 
