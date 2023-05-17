@@ -29,6 +29,15 @@
       <h2>ミニツール</h2>
       <div class="yokoori">
         <article class="service_card">
+          <a href="../s-KaomoziSakusei/content.php" class="service_card_link">
+            <div class="service_card_info">
+              <time class="service_card_time" datetime="2023-05-17">2023.05.17</time>
+              <h1 class="service_card_headline">顔文字作成機</h1>
+              <p class="service_card_description">顔文字を簡単に自作できるツールを興味本位で作ってみました。</p>
+            </div>
+          </a>
+        </article>
+        <article class="service_card">
           <a href="../s-TyaimuTukiTokeiOtamesi/content.php" class="service_card_link">
             <div class="service_card_info">
               <time class="service_card_time" datetime="2023-04-29">2023.04.29</time>
@@ -52,15 +61,6 @@
               <time class="service_card_time" datetime="2022-11-25">2022.11.25</time>
               <h1 class="service_card_headline">プシューサービスで初アプリをここでを試せます！！</h1>
               <p class="service_card_description">プシューアプリは、プシューが作ったミニWEBアプリや、ほかの人が作ったWEBアプリなどがあります。</p>
-            </div>
-          </a>
-        </article>
-        <article class="service_card">
-          <a href="#" class="service_card_link">
-            <div class="service_card_info">
-              <time class="service_card_time" datetime="0000-00-00">0000.00.00</time>
-              <h1 class="service_card_headline">作成中</h1>
-              <p class="service_card_description">...</p>
             </div>
           </a>
         </article>
