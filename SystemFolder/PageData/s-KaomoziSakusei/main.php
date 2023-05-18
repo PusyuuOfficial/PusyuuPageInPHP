@@ -5,13 +5,13 @@
         <h2>顔文字制作機</h2>
         <p>ここでは、顔文字をパーツごとに入力するだけで簡単に顔文字を自作することができます。</p>
         <div class="box-6">
-          <div id="faceContainer" style="width: auto; height: 350px;"> ここに顔文字が表示されます。 </div>
+          <div id="faceContainer" style="width: auto; height: 350px; font-size: 70px;"> ここに顔文字が表示されます。 </div>
         </div>
         <a href="#modal-1">顔文字を作るボタン</a>
         <div id="modal-1" class="modal">
           <div class="message-wrapper">
             <a href="#" class="modal_close"></a>
-            <div class="modal_message-box" style=" display: flex; justify-content: center; flex-direction: column; width: 30vw; height: 60vh;">
+            <div class="modal_message-box" style=" display: flex; justify-content: center; flex-direction: column; width: 30vw; height: 60vh;" overflow: scroll;>
               <label for="outline">輪郭</label>
               <select id="outline">
                 <option value="()">( )</option>
