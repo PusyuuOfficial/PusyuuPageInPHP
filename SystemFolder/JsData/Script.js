@@ -1,8 +1,8 @@
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 1.0        |
+  |  ThisStyleVersion: 1.1        |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-04-16       |
+  |  LastUpdate: 2023-05-19       |
   |  (^U^)PusyuuJsDesu            |
 ----------------------------------*
 ******************************************/
@@ -142,4 +142,20 @@ window.onload = function() {
 window.onload = function() {
   let spinner = document.getElementById('loading');
   spinner.classList.add('loaded');
+}
+
+/* FaceMoJi Create Tool
+---------------------------------*/
+
+function createFace() {
+    var lefthand = document.getElementById("lefthand").value;
+    var outline = document.getElementById("outline").value;
+    var lefteyes = document.getElementById("lefteyes").value;
+    var nose = document.getElementById("nose").value;
+    var righteyes = document.getElementById("righteyes").value;
+    var righthand = document.getElementById("righthand").value;
+    var comment = document.getElementById("comment").value;
+
+    var face = lefthand + outline.substring(0, 1) + lefteyes + nose + righteyes + outline.substring(1) + righthand + comment;
+    document.getElementById("faceContainer").innerHTML = '<div class="face">' + face + '</div>';
 }
