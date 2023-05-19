@@ -1007,6 +1007,14 @@ button:active {
   background: #00aacc;
 }
 
+a {
+  pointer-events: none;
+}
+
+button {
+  pointer-events: none;
+}
+
 /* sm tb版 ハンバーガーメニュー、ボタン調整部
 -----------------------------------------------------------------*/
 
