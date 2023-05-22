@@ -9,7 +9,7 @@
   <meta name="twitter:site" content="@PusyuuOfficial">
   <meta name="twitter:title" content="プシューサービス - PusyuuPage">
   <meta name="twitter:description" content="プシューページ(PusyuuPage)では、プシューブログや、プシューの部屋、プシューが作ったサービス、等を閲覧、使用することができます。">
-  <meta name="twitter:image" content="http://21emon.wjg.jp/SystemFolder/IconData/gateway_page_logo.png">
+  <meta name="twitter:image" content="http://21emon.wjg.jp/SystemFolder/IconData/logo-black.png">
   <title><?php echo $title; ?></title>
   <link rel="stylesheet" href="../../CssData/Style-1.css">
   <link rel="shortcut icon" href="../../IconData/favicon.ico">
