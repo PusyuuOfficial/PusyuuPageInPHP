@@ -13,9 +13,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 14.8       |
+  |  ThisStyleVersion: 14.9       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-05-19       |
+  |  LastUpdate: 2023-05-23       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -65,12 +65,12 @@ a:hover {
   color: #ff5500;
 }
 
-//h2 {
+h2 {
   background: -webkit-linear-gradient(left, #00ffff, #00ff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-//h2:after {
+h2:after {
   content: "";
   display: block;
   width: 100%; height: 2px;
@@ -78,7 +78,7 @@ a:hover {
   background-image: -ms-linear-gradient(left, #00ffff, #00ff00);
 }
 
-h2 {
+//h2 {
   background-image: url("../ImageData/green0074.png");
   background-size: cover;
   //background: radial-gradient(circle at left, #00ff00 0%, #00ffff 100%);
@@ -302,6 +302,10 @@ td {
 .right {
   display: flex;
   justify-content: right;
+}
+
+.yokonarabi {
+  display: flex;
 }
 
 .avater {
