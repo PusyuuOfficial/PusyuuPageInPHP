@@ -57,23 +57,25 @@
         <img src="../../IconData/logo-black.png" alt="ロゴ画像" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
       </a>
     </h1>
-    <div class="hamburger-menu">
-      <input type="checkbox" id="menu-btn-check">
-      <label for="menu-btn-check" class="menu-btn"><span></span></label>
-      <div class="menu-content">
-        <details class="nav_setumei">
-          <summary>ユーザビリティ（開く）</summary>
-          <p>この画面では、様々なページのセクションにほぼスクロールすることなく、簡単に飛ぶ事ができます。</p>
-        </details>
-        <nav class="nav_nav">
-          <ul class="nav_ul">
-            <li class="nav_li"><a class="nav_a" href="../p1/content.php">HOME</a></li>
-            <li class="nav_li"><a class="nav_a" href="../p2/content.php">PusyuuBlog</a></li>
-            <li class="nav_li"><a class="nav_a" href="../p3/content.php">PusyuuRoom</a></li>
-            <li class="nav_li"><a class="nav_a" href="../p4/content.php">PusyuuNewsInfo</a></li>
-            <li class="nav_li"><a class="nav_a" href="../p5/content.php">Contact</a></li>
-          </ul>
-        </nav>
+    <a href="#modal_ham_nav" class="modal_menu-btn"></a>
+    <div id="modal_ham_nav">
+      <div class="modal_ham_nav_box">
+        <a id="pham" href="#pham" class="close"></a>
+        <div class="modal_ham_nav_content">
+          <details class="nav_setumei">
+            <summary>ユーザビリティ（開く）</summary>
+            <p>この画面では、様々なページのセクションにほぼスクロールすることなく、簡単に飛ぶ事ができます。</p>
+          </details>
+          <nav class="nav_nav">
+            <ul class="nav_ul">
+              <li class="nav_li"><a class="nav_a" href="../p1/content.php">HOME</a></li>
+              <li class="nav_li"><a class="nav_a" href="../p2/content.php">PusyuuBlog</a></li>
+              <li class="nav_li"><a class="nav_a" href="../p3/content.php">PusyuuRoom</a></li>
+              <li class="nav_li"><a class="nav_a" href="../p4/content.php">PusyuuNewsInfo</a></li>
+              <li class="nav_li"><a class="nav_a" href="../p5/content.php">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </div>

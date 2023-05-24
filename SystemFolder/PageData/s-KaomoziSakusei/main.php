@@ -31,7 +31,7 @@
                 <input type="text" id="righthand" placeholder="右手の記号を入力">
                 <label for="comment">コメント</label>
                 <input type="text" id="comment" placeholder="コメントを入力">
-                <button style="margin: 0 5px; margin-top: 8px;" onclick="createFace()">作成</button>
+                <button style="margin: 0 5px; margin-top: 8px;" onclick="createFace(); location.href='#';">作成</button>
               </div>
             </div>
           </div>
