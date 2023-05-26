@@ -13,9 +13,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 14.9       |
+  |  ThisStyleVersion: 15.0       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-05-23       |
+  |  LastUpdate: 2023-05-26       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -39,6 +39,21 @@ p  {color: #ffffff;}
 th {color: #ffffff;}
 td {color: #ffffff;}
 li {color: #FFFFFF;}
+
+@media (prefers-color-scheme: dark) {
+  .main {
+    background-color: rgba(0,0,0,0.8);
+  }
+  #loading {
+    background-color: #000;
+  }
+  .load_content {
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+    color: #fff;
+  }
+}
 
 button {
   border-radius: 3px;
@@ -1009,6 +1024,12 @@ button:active {
   color: #fff;
   box-shadow: 0 0 0 rgba(0,0,0,0.0);
   background: #00aacc;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    background-color: rgba(80, 80, 80, 0.6);
+  }
 }
 
 /* sm tb版 ハンバーガーメニュー、ボタン調整部
