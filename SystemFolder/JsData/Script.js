@@ -1,8 +1,8 @@
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 1.1        |
+  |  ThisStyleVersion: 1.2        |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-05-19       |
+  |  LastUpdate: 2023-05-26       |
   |  (^U^)PusyuuJsDesu            |
 ----------------------------------*
 ******************************************/
@@ -118,7 +118,7 @@ let validateName = function (val){
 	}
 }
 
-/* PusyuuTheMesseage
+/* PusyuuOfMesseage
 ---------------------------------*/
 
 const pusyuu = "あ、あ、テステス、テストコメントです。まだまだプログラミング初心者です。応戦よろしくお願いします。";
@@ -136,7 +136,7 @@ window.onload = function() {
         }
 }
 
-/* Loading Display
+/* LoadingDisplay
 ---------------------------------*/
 
 window.onload = function() {
@@ -144,7 +144,7 @@ window.onload = function() {
   spinner.classList.add('loaded');
 }
 
-/* FaceMoJi Create Tool
+/* CreateToolTheFaceMoJi 
 ---------------------------------*/
 
 function createFace() {
@@ -158,4 +158,22 @@ function createFace() {
 
     var face = lefthand + outline.substring(0, 1) + lefteyes + nose + righteyes + outline.substring(1) + righthand + comment;
     document.getElementById("faceContainer").innerHTML = '<div class="face">' + face + '</div>';
+}
+
+/* FremworkForMemoryOfMemo
+---------------------------------*/
+
+function load() {
+    let MemoData = "";
+    if (!localStorage.getItem('MemoData')) {
+        MemoData = "メモが登録されていません。履歴の削除により消去されたか、そもそもメモを記録してない可能性があります。";
+    } else {
+        MemoData = localStorage.getItem('MemoData');
+    }
+    document.MemoForm.Memo.value = MemoData;
+}
+
+function save() {
+    let MemoData = document.MemoForm.Memo.value;
+    localStorage.setItem('MemoData', MemoData);
 }
