@@ -3,7 +3,17 @@
     <section class="section" id="p2">
       <h2 id="p2">プシューの部屋</h2>
       <h3>最近の出来事への一言</h3>
-      <div class="photo_frame-1"> <img src="../../ImageData/kyouno_pusyuu/1.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"> </div>
+      <div class="photo_frame-1">
+        <a href="#modal"><img src="../../ImageData/kyouno_pusyuu/1.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+      </div>
+      <div id="modal" class="modal">
+        <div class="modal_message-wrapper">
+          <a href="#" class="modal_close"></a>
+          <div class="modal_message-box">
+            <img src="../../ImageData/kyouno_pusyuu/1.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          </div>
+        </div>
+      </div>
       <p>postfix、dovecotなかなかうまく構築できなくて、なぜだか受信がうまくできないw。まぁそんなこんなで充実していて楽しいです。</p>
       <p>更新日2023年04月18日</p>
       <h3>過去の出来事を語るプシュー</h3>
@@ -28,15 +38,6 @@
       <p>こんな感じで、当時の私は完全な中二病に入っていたことが何故か感じてきます。ちなみに当時、調べてみていたページは英語の動画やページを読めもしないのにあさっていました（今思えば、プログラミング言語について検索する際は、外国圏のページのほうが情報が多いのでやっといて損はなっかっと思います。）。まぁそれだけ調べて成長できたから結果オーライかな。。。</p>
       <h2>ミニツール</h2>
       <div class="yokoori">
-        <article class="service_card">
-          <a href="../s-MemoTool/content.php" class="service_card_link">
-            <div class="service_card_info">
-              <time class="service_card_time" datetime="2023-05-26">2023.05.26</time>
-              <h1 class="service_card_headline">メモ帳</h1>
-              <p class="service_card_description">メモ帳では一時的なメモを取ったりコピペ用に使用することができます。</p>
-            </div>
-          </a>
-        </article>
         <article class="service_card">
           <a href="../s-KaomoziSakusei/content.php" class="service_card_link">
             <div class="service_card_info">

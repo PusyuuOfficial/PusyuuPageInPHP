@@ -9,13 +9,45 @@
           <p>大体のダウンロードサイトで言えること何ですけど このスマホはウィルスに感染しましたなどの偽情報が回っています。 通知を許可しますかなんて出てくるけど、絶対にその画面の指示に従わないこと！！</p>
           <h3>対処法</h3>
           <p>通知型の場合</p>
-          <img src="../../ImageData/27.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <a href="#modal-1"><img src="../../ImageData/27.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-1" class="modal">
+            <div class="modal_message-wrapper">
+              <a href="#" class="modal_close"></a>
+              <div class="modal_message-box">
+                <img src="../../ImageData/27.png" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+              </div>
+            </div>
+          </div>
           <p>通知表示みたいなポップアップ型の場合</p>
-          <img src="../../ImageData/24.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <a href="#modal-2"><img src="../../ImageData/24.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-2" class="modal">
+            <div class="modal_message-wrapper">
+              <a href="#" class="modal_close"></a>
+              <div class="modal_message-box">
+                <img src="../../ImageData/24.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+              </div>
+            </div>
+          </div>
           <p>偽ウィルスポップアップ型の場合</p>
-          <img src="../../ImageData/26.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <a href="#modal-3"><img src="../../ImageData/26.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-3" class="modal">
+            <div class="modal_message-wrapper">
+              <a href="#" class="modal_close"></a>
+              <div class="modal_message-box">
+                <img src="../../ImageData/26.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+              </div>
+            </div>
+          </div>
           <p>偽ウィルス新しいタブ型の場合</p>
-          <img src="../../ImageData/25.gif" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <a href="#modal-1"><img src="../../ImageData/25.gif" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-1" class="modal">
+            <div class="modal_message-wrapper">
+              <a href="#" class="modal_close"></a>
+              <div class="modal_message-box">
+                <img src="../../ImageData/25.gif" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+              </div>
+            </div>
+          </div>
           <p>ブラウザの戻るボタンを押して元の画面に戻るかまたは閉じてかまいません。※たまにもどうをダブルタップする必要がある場合があります。</p>
           <h3>何故そんなことをするか</h3>
           <p>アプリをダウンロードさせたりして広告などで金儲けするため。 通知形は通知を許可すると通知画面に(あなたのスマホはウィルスに感染しました)見たいな通知を出し、 ブラウザ経由で表示させて、不安を煽り偽ウィルス画面に誘導させると言う目的です。 ですが怖がる必要はありません。眺めるだけ、すぐに閉じる。などさえ守れば何もおきません。</p>

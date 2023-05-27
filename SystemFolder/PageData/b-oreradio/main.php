@@ -27,7 +27,15 @@
             <li>キリなど</li>
           </ol>
           <h3>回路図</h3>
-          <img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <a href="#modal-1"><img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-1" class="modal">
+            <div class="modal_message-wrapper">
+              <a href="#" class="modal_close"></a>
+              <div class="modal_message-box">
+                <img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+              </div>
+            </div>
+          </div>
           <h3>短波ゲルマラジオの作り方</h3>
           <p>まずコイルを１６回巻きます。 コツはフィルムケースに穴を開け、そしてエナメル線を通すことで、(ボヨーン)とならないようにすることができます。 巻くときにエナメル線をしっかり抑えきつく巻いていきます。 巻き終わったら接着剤でとめます。 次にポリバリコンと先ほど作ったコイルをハンダ付けします。 やり方は、エナメル線をポリバリコンの端子に銅線を軽く巻き、ハンダ付けします。そしたらエナメル線を先ほどつけた銅線巻いておきます。 ※なぜ巻くだけかテストのときにはずせるようにするため、改造するためしない場合は軽く巻きハンダ付けします。 そしたら、銅線をゲルマニウムダイオード帯のないほうをにハンダ付けします。 付け終わったら、もうひとつのポリバリコンにコードを取り付けコイルのどちらかにコードをつなぎます。 ゲルマニウムダイオードの帯のある部分に、線をつけます。 おすすめは、先ほどと同じく端子に軽く巻きつけてからハンダ付けします。 そしたらモノラルオーディオジャックをコイル側とゲルマニウムの線側のコードをオーディオジャックの適切な場所にハンダ付けします。 ステレオの場合はLR部をショートさせその部分にコードを取り付け後はグランドにもコードをつけます。</p>
           <h3>テストに動かして見よう</h3>
@@ -39,11 +47,27 @@
           <h3>改造！！</h3>
           <p>さらに機能をふやすことができます。 それは中波と短波の２バンドラジオに改造できます。 やりかたは、まず短波ラジオのコイルを取り外します。 そしたら新しくフィルムケースサイズの筒にエナメル線を44回巻きします。すると中波コイルは完成で。 中波コイルはインダクターでもよいです使えるのは330マイクロヘンリーのものが使えます。 次に先ほど作った中波コイルまたはインダクターの片方を3端子切り替えスイッチの右か左かお好きなほうにハンダ付けします。 そして切り替えスイッチのもう片方側に先ほど作った短波ラジオのコイルの片方をつなぎます。 そして中波と短波ラジオのもう片方のコイルを一緒に巻きつけます。 そうするとスイッチの真中が何も接続されてない状態になりますそしたらそこにコードをハンダ付けし、最初にコイルが付いてた場所ハンダ付けします。</p>
           <h3>改造した後の回路図</h3>
-          <img src="../../ImageData/38.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <a href="#modal-2"><img src="../../ImageData/38.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-2" class="modal">
+            <div class="modal_message-wrapper">
+              <a href="#" class="modal_close"></a>
+              <div class="modal_message-box">
+                <img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+              </div>
+            </div>
+          </div>
           <h3>テストができたら</h3>
           <p>入れ物を自分なりのデザインで手探りですが穴を開けたりして作ります。 穴あけのコツあまりよくありませんが半田ごてをつけるとプラスチックの場合簡単に穴が開きます。</p>
           <h3>私が作った短波中波ラジオ</h3>
-          <img src="../../ImageData/40.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"> </article>
+          <a href="#modal-2"><img src="../../ImageData/40.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-2" class="modal">
+            <div class="modal_message-wrapper">
+              <a href="#" class="modal_close"></a>
+              <div class="modal_message-box">
+                <img src="../../ImageData/40.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+              </div>
+            </div>
+          </div>
         </article>
       </section>
     </div>
