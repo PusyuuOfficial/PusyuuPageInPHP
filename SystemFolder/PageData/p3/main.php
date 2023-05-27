@@ -39,6 +39,15 @@
       <h2>ミニツール</h2>
       <div class="yokoori">
         <article class="service_card">
+          <a href="../s-MemoTool/content.php" class="service_card_link">
+            <div class="service_card_info">
+              <time class="service_card_time" datetime="2023-05-26">2023.05.26</time>
+              <h1 class="service_card_headline">メモ帳</h1>
+              <p class="service_card_description">メモ帳では一時的なメモを取ったりコピペ用に使用することができます。</p>
+            </div>
+          </a>
+        </article>
+        <article class="service_card">
           <a href="../s-KaomoziSakusei/content.php" class="service_card_link">
             <div class="service_card_info">
               <time class="service_card_time" datetime="2023-05-17">2023.05.17</time>
