@@ -12,6 +12,9 @@
               <a href="#mc" class="modal_close"></a>
               <div class="modal_message-box">
                 <img src="../../ImageData/39.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+              </div>
+            </div>
+          </div>
           <h3>短波ラジオに必要な部品</h3>
           <ol class="marukado_waku">
             <li>AMストレート用ポリバリコンx2</li>
