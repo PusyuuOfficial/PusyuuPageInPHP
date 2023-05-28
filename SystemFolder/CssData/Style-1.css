@@ -232,6 +232,7 @@ opacity: 1;
   margin-left: 250px;
 }
 .modal .modal_message-box {
+  overflow: scroll;
   position: relative;
   background-color: gold;
   padding: 20px;
@@ -575,7 +576,6 @@ td {
 .img-rs_saidai {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 /* プロフィール調整部 
