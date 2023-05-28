@@ -6,7 +6,12 @@
           <h3>短波ラジオとは？</h3>
           <p>そもそも短波ラジオとは何と言う人もいると思うので一応説明しときます。 短波(HF)ラジオとは、短い波で簡単に言ってしまえば遠くに電波を飛ばすことができます。 といっても遠くに届くには、条件があります。電離層のD層が消えているときです。 D層は短波周波数を吸収してしまうため遠くに飛ばすことができなくなってしまいます。 ですが夜になるとD層が消えE層が出ます。ですがE層は貫通しF層は短波帯を反射します。 それで遠くに電波を飛ばすことが可能なのです。 昔はこの短波帯を国際電話に使ってました。 ですが短波帯は、特に太陽フレアに弱いです。 太陽フレアがくると電離層が乱れ反射しなくなり、干渉しあったりしてしまい遠くに電波を飛ばせなくなります。 なので国際電話に短波帯を使っていたころは。 大変だったと思います。 現在でもGPSの混乱など太陽フレアにより機械の故障などあります。 ですが長くて一時間程度で収まるそうです。 前置きが長くなってしまいましたが次いきましょう！！</p>
           <h3>電離層画像</h3>
-          <img src="../../ImageData/39.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <a href="#modal-1"><img src="../../ImageData/39.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+          <div id="modal-1" class="modal">
+            <div class="modal_message-wrapper">
+              <a href="#mc" class="modal_close"></a>
+              <div class="modal_message-box">
+                <img src="../../ImageData/39.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           <h3>短波ラジオに必要な部品</h3>
           <ol class="marukado_waku">
             <li>AMストレート用ポリバリコンx2</li>
@@ -27,12 +32,12 @@
             <li>キリなど</li>
           </ol>
           <h3>回路図</h3>
-          <a href="#modal-1"><img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
-          <div id="modal-1" class="modal">
+          <a href="#modal-2"><img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-2" class="modal">
             <div class="modal_message-wrapper">
-              <a href="#" class="modal_close"></a>
+              <a href="#mc" class="modal_close"></a>
               <div class="modal_message-box">
-                <img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                <img src="../../ImageData/37.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
               </div>
             </div>
           </div>
@@ -47,24 +52,24 @@
           <h3>改造！！</h3>
           <p>さらに機能をふやすことができます。 それは中波と短波の２バンドラジオに改造できます。 やりかたは、まず短波ラジオのコイルを取り外します。 そしたら新しくフィルムケースサイズの筒にエナメル線を44回巻きします。すると中波コイルは完成で。 中波コイルはインダクターでもよいです使えるのは330マイクロヘンリーのものが使えます。 次に先ほど作った中波コイルまたはインダクターの片方を3端子切り替えスイッチの右か左かお好きなほうにハンダ付けします。 そして切り替えスイッチのもう片方側に先ほど作った短波ラジオのコイルの片方をつなぎます。 そして中波と短波ラジオのもう片方のコイルを一緒に巻きつけます。 そうするとスイッチの真中が何も接続されてない状態になりますそしたらそこにコードをハンダ付けし、最初にコイルが付いてた場所ハンダ付けします。</p>
           <h3>改造した後の回路図</h3>
-          <a href="#modal-2"><img src="../../ImageData/38.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
-          <div id="modal-2" class="modal">
+          <a href="#modal-3"><img src="../../ImageData/38.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-3" class="modal">
             <div class="modal_message-wrapper">
-              <a href="#" class="modal_close"></a>
+              <a href="#mc" class="modal_close"></a>
               <div class="modal_message-box">
-                <img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                <img src="../../ImageData/38.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
               </div>
             </div>
           </div>
           <h3>テストができたら</h3>
           <p>入れ物を自分なりのデザインで手探りですが穴を開けたりして作ります。 穴あけのコツあまりよくありませんが半田ごてをつけるとプラスチックの場合簡単に穴が開きます。</p>
           <h3>私が作った短波中波ラジオ</h3>
-          <a href="#modal-2"><img src="../../ImageData/40.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
-          <div id="modal-2" class="modal">
+          <a href="#modal-4"><img src="../../ImageData/40.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+          <div id="modal-4" class="modal">
             <div class="modal_message-wrapper">
-              <a href="#" class="modal_close"></a>
+              <a href="#mc" class="modal_close"></a>
               <div class="modal_message-box">
-                <img src="../../ImageData/40.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                <img src="../../ImageData/40.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
               </div>
             </div>
           </div>

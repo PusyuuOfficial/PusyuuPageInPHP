@@ -12,7 +12,7 @@
           <a href="#modal-1"><img src="../../ImageData/27.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-1" class="modal">
             <div class="modal_message-wrapper">
-              <a href="#" class="modal_close"></a>
+              <a href="#mc" class="modal_close"></a>
               <div class="modal_message-box">
                 <img src="../../ImageData/27.png" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
               </div>
@@ -22,9 +22,9 @@
           <a href="#modal-2"><img src="../../ImageData/24.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-2" class="modal">
             <div class="modal_message-wrapper">
-              <a href="#" class="modal_close"></a>
+              <a href="#mc" class="modal_close"></a>
               <div class="modal_message-box">
-                <img src="../../ImageData/24.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                <img src="../../ImageData/24.png" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
               </div>
             </div>
           </div>
@@ -32,9 +32,9 @@
           <a href="#modal-3"><img src="../../ImageData/26.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-3" class="modal">
             <div class="modal_message-wrapper">
-              <a href="#" class="modal_close"></a>
+              <a href="#mc" class="modal_close"></a>
               <div class="modal_message-box">
-                <img src="../../ImageData/26.png" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                <img src="../../ImageData/26.png" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
               </div>
             </div>
           </div>
@@ -42,9 +42,9 @@
           <a href="#modal-1"><img src="../../ImageData/25.gif" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-1" class="modal">
             <div class="modal_message-wrapper">
-              <a href="#" class="modal_close"></a>
+              <a href="#mc" class="modal_close"></a>
               <div class="modal_message-box">
-                <img src="../../ImageData/25.gif" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                <img src="../../ImageData/25.gif" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
               </div>
             </div>
           </div>

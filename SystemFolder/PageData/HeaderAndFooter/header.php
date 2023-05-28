@@ -53,7 +53,7 @@
 <header class="header">
   <div class="header_nav">
     <h1 class="header_logo">
-      <a id="hlp" href="#hlp">
+      <a href="#hlp">
         <img src="../../IconData/logo-black.png" alt="ロゴ画像" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
       </a>
     </h1>

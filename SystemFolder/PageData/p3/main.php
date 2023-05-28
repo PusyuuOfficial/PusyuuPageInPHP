@@ -8,7 +8,7 @@
       </div>
       <div id="modal" class="modal">
         <div class="modal_message-wrapper">
-          <a href="#" class="modal_close"></a>
+          <a href="#mc" class="modal_close"></a>
           <div class="modal_message-box">
             <img src="../../ImageData/kyouno_pusyuu/1.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           </div>
