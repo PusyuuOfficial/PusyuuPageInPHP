@@ -5,7 +5,7 @@
   <img src="../../ImageData/Show-img.jpg" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
 </div>
 <main class="main">
-  <div class="main_yohaku">
+  <div class="main_wrapper">
     <section class="section" id="p1">
       <h2>プロフィール</h2>
       <div class="center">

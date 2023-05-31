@@ -1,5 +1,5 @@
   <main class="main">
-    <div class="main_yohaku">
+    <div class="main_wrapper">
       <section class="section">
         <article>
           <h2>お試しチャイム付き時計!!</h2>

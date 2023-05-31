@@ -1,5 +1,5 @@
 <main class="main">
-  <div class="main_yohaku">
+  <div class="main_wrapper">
     <section class="section" id="p2">
       <h2 id="p2">プシューの部屋</h2>
       <h3>最近の出来事への一言</h3>

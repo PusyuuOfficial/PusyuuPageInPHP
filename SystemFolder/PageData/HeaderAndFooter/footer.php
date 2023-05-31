@@ -1,12 +1,15 @@
 
-<footer class="footer">
-  <div class="footer_yohaku">
-    <hr></hr>
+<footer class="footer footer_wrapper yokoori">
+  <div class="footer_box">
     <a class="kiyaku" href="../p6/content.php">利用規約</a>
-    <hr></hr>
+    <hr style="margin: 5px;">
     <a class="kiyaku" href="../p7/content.php">プライバシーポリシー</a>
-    <hr></hr>
-    <small class="Copyright">© 2020-2023 by Pusyuu</small> </div>
+    <hr style="margin: 5px;">
+    <small class="Copyright">© 2020-2023 by Pusyuu</small>
+  </div>
+  <div class="footer_box">
+    <p>概要ダーああああああああああああああああああああああああああああああああああああ</p>
+  </div>
 </footer>
 </body>
 </html>

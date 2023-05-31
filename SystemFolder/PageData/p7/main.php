@@ -1,5 +1,5 @@
 <main class="main">
-  <div class="main_yohaku">
+  <div class="main_wrapper">
     <section class="section">
       <h1>プライバシーポリシー</h1>
       <pre align="right" style=" color: #ccc;">訂正2023-01-01</pre>

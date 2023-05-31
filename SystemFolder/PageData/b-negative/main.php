@@ -1,5 +1,5 @@
   <main class="main">
-    <div class="main_yohaku">
+    <div class="main_wrapper">
       <section class="section">
         <h2>ネガティブな自分を打ち消す方法</h2>
         <h3>目次</h3>

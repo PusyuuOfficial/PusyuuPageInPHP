@@ -1,5 +1,5 @@
 <main class="main">
-  <div class="main_yohaku">
+  <div class="main_wrapper">
     <section class="section" id="p6">
       <h2>お問い合わせ</h2>
       <p>お問い合わせフォームでは、ご感想、やご質問などをプシューに届けることができます。</p>

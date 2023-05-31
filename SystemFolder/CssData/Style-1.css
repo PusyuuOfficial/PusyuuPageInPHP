@@ -13,9 +13,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 15.3       |
+  |  ThisStyleVersion: 15.4       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-05-29       |
+  |  LastUpdate: 2023-05-31       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -122,16 +122,15 @@ h2:after {
   possition: relative;
 }
 
-.kiyaku {
+.kiyaku , .Copyright {
   color: #00ff33;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
 }
-
 .Copyright {
-color:#e6e6e6; margin: auto;
+  color:#e6e6e6;
 }
 
 .text {
@@ -277,16 +276,13 @@ table {
   border-spacing: 0;
   border: 1px solid #0055ff;
 }
-
 th {
   border: 1px solid #0055ff;
   padding: 5px;
 }
-
 tr {
   border: 1px ridge #0055ff;
 }
-
 td {
   border: 1px solid #0055ff;
   padding: 5px;
@@ -296,17 +292,14 @@ td {
   display: flex;
   justify-content: center;
 }
-
 .left {
   display: flex;
-  justify-content: left;
+  justify-content: flex-start;
 }
-
 .right {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
-
 .yokonarabi {
   display: flex;
 }
@@ -486,9 +479,6 @@ td {
   z-index: 777;
 }
 
-/* ヘッダー上のナビゲーション調整部
------------------------------------------------------------------*/
-
 .header_nav {
   padding: 0 20px;
   display: block;
@@ -497,9 +487,6 @@ td {
   height: inherit;
   position: relative;
 }
-
-/* ヘッダーロゴ調整部
------------------------------------------------------------------*/
 
 .header_logo {
   width: 210px;
@@ -529,6 +516,11 @@ td {
   justify-content: center;
 }
 
+.main_wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 /* フッター調整部
 -----------------------------------------------------------------*/
 
@@ -539,20 +531,22 @@ td {
   background-color: #333333;
   height: 200px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+  padding: 25px;
+}
+
+.footer_box {
+  width: 400px;
+  height: auto;
+  display: flex;
   justify-content: center;
 }
 
-/* 親要素周りの余白
------------------------------------------------------------------*/
-
-.main_yohaku {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.footer_yohaku {
-  margin: auto;
+.footer_wrapper {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 /* 画像AUTOリサイズ
@@ -781,119 +775,119 @@ textarea {
 -----------------------------------------------------------------*/
 
 .box-1 {
-    padding: 8px 19px;
-    margin: 10px;
-    color: #2c2c2f;
-    background: #666666;
-    border-top: solid 5px #fff;
-    border-right: solid 5px #fff;
-    border-left: solid 5px #fff;
-    border-bottom: solid 5px #fff;
+  padding: 8px 19px;
+  margin: 10px;
+  color: #2c2c2f;
+  background: #666666;
+  border-top: solid 5px #fff;
+  border-right: solid 5px #fff;
+  border-left: solid 5px #fff;
+  border-bottom: solid 5px #fff;
 }
 .box-1 p {
-    margin: 0; 
-    padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 
 .box-2 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    font-weight: bold;
-    border: solid 3px #000000;
-    background-color: yellow;
+  padding: 0.5em 1em;
+  margin: 10px;
+  font-weight: bold;
+  border: solid 3px #000000;
+  background-color: yellow;
 }
 .box-2 p {
-    margin: 0; 
-    padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 
 .box-3 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    background: #FFF;
-    border: solid 3px #6091d3;
-    border-radius: 10px;
-    background-color: #000000;
+  padding: 0.5em 1em;
+  margin: 10px;
+  background: #FFF;
+  border: solid 3px #6091d3;
+  border-radius: 10px;
+  background-color: #000000;
 }
 .box-3 p {
-    margin: 0; 
-    padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 
 .box-4 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    border: double 5px #4ec4d3;
-    background: #1a1a1a;
+  padding: 0.5em 1em;
+  margin: 10px;
+  border: double 5px #4ec4d3;
+  background: #1a1a1a;
 }
 .box-4 p {
-    margin: 0; 
-    padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 
 .box-5 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    background: #00bfff;
-    border: dashed 5px #2e2eff;
+  padding: 0.5em 1em;
+  margin: 10px;
+  background: #00bfff;
+  border: dashed 5px #2e2eff;
 }
 .box-5 p {
-    margin: 0; 
-    padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 
 .box-6 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    color: #00BCD4;
-    background: #666666;
-    border-top: solid 6px #FFFFFF;
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.50);
+  padding: 0.5em 1em;
+  margin: 10px;
+  color: #00BCD4;
+  background: #666666;
+  border-top: solid 6px #FFFFFF;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.50);
 }
 .box-6 p {
-    margin: 0; 
-    padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 
 .box-7 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    background: #FFF;
-    border-radius: 10px;
-    background-color: #008099;
+  padding: 0.5em 1em;
+  margin: 10px;
+  background: #FFF;
+  border-radius: 10px;
+  background-color: #008099;
 }
 .box-7 p {
-    margin: 0; 
-    padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 
 .box-8 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.5);
+  padding: 0.5em 1em;
+  margin: 10px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.5);
 }
 .box-8 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .box-9 {
-    padding: 0.5em 1em;
-    margin: 10px;
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  padding: 0.5em 1em;
+  margin: 10px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 }
 .box-9 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .yokoori {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* ナビゲーションバー調整部
@@ -928,71 +922,14 @@ textarea {
   box-sizing: border-box;
 }
 
-/* ハンバーガーメニュー隠し調整部
------------------------------------------------------------------*/
-
-.menu-btn {
-  position: fixed;
-  top: 7px;
-  right: 7px;
-  display: none;
-  height: 60px;
-  width: 60px;
-  justify-content: center;
-  align-items: center;
-  z-index: 90;
-  background-color: #000000;
-}
-
-/* ハンバーガーメニュー線調整部
------------------------------------------------------------------*/
-
-.menu-btn span,
-.menu-btn span:before,
-.menu-btn span:after {
-  content: '';
-  display: block;
-  height: 3px;
-  width: 20px;
-  border-radius: 3px;
-  background-color: #0080ff;
-  position: absolute;
-  transition: all 0.45s;
-}
-
-.menu-btn span:before {
-  bottom: 8px;
-}
-
-.menu-btn span:after {
-  top: 8px;
-}
-
-/* ハンバーガーメニュー×ボタン調整部
------------------------------------------------------------------*/
-
-#menu-btn-check:checked ~ .menu-btn span {
-  background-color: rgba(255, 255, 255, 0);
-}
-
-#menu-btn-check:checked ~ .menu-btn span::before {
-  bottom: 0;
-  transform: rotate(45deg);
-}
-
-#menu-btn-check:checked ~ .menu-btn span::after {
-  top: 0;
-  transform: rotate(-45deg);
-}
-
-#menu-btn-check:checked ~ .menu-content {
-  left: 0;
-}
-
-/* ハンバーガーメニュー、チェックボックス隠し
+/* CSSだけでハンバーガーメニュー、ボタン類隠し
 -----------------------------------------------------------------*/
 
 #menu-btn-check {
+  display: none;
+}
+
+.menu-btn {
   display: none;
 }
 
@@ -1018,7 +955,7 @@ button:active {
   margin-left: 0px;
 }
 
-/* sm tb版 ハンバーガーメニュー、ボタン調整部
+/* sm tb版 CSSだけでハンバーガーメニュー
 -----------------------------------------------------------------*/
 
 .menu-btn {
@@ -1036,8 +973,44 @@ button:active {
   overflow: hidden;
 }
 
-/* sm tb版 ハンバーガーメニュー、ナビゲーション調整部
------------------------------------------------------------------*/
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 20px;
+  border-radius: 3px;
+  background-color: #0080ff;
+  position: absolute;
+  transition: all 0.45s;
+}
+
+.menu-btn span:before {
+  bottom: 8px;
+}
+
+.menu-btn span:after {
+  top: 8px;
+}
+
+#menu-btn-check:checked ~ .menu-btn span {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#menu-btn-check:checked ~ .menu-btn span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#menu-btn-check:checked ~ .menu-btn span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+#menu-btn-check:checked ~ .menu-content {
+  left: 0;
+}
 
 .menu-content {
   width: 100%;
@@ -1088,7 +1061,7 @@ button:active {
   top: 16px;
 }
 
-/* モーダル型ハンバーガーメニュー調整部
+/* sm tb版 CSSだけでモーダル型ハンバーガーメニュー調整部
 -----------------------------------------------------------------*/
 
 .modal_menu-btn::before {
@@ -1240,15 +1213,9 @@ button:active {
   //overflow: hidden;
 }
 
-/* ヘッダー上のナビゲーション調整部
------------------------------------------------------------------*/
-
 .header_nav {
   display: flex;
 }
-
-/* ヘッダーロゴ調整部
------------------------------------------------------------------*/
 
 .header_logo {
   width: 80px;
@@ -1265,6 +1232,11 @@ button:active {
   //margin-right: 5%;
 }
 
+.main_wrapper {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 /* sm tb版 フッター調整部
 -----------------------------------------------------------------*/
 
@@ -1272,18 +1244,19 @@ button:active {
   margin-left: 0;
   //margin-right: 5%;
   //margin-bottom: 0;
+  display: block;
 }
 
-/* sm tb版 親要素周りの余白調整部
------------------------------------------------------------------*/
-
-.main_yohaku {
-  margin-left: 5%;
-  margin-right: 5%;
+.footer_box {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
-.footer_yohaku {
-  margin: auto;
+.footer_wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* sm tb版 プロフィール調整部 

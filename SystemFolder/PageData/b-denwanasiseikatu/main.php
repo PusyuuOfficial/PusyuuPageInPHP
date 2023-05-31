@@ -1,5 +1,5 @@
   <main class="main">
-    <div class="main_yohaku">
+    <div class="main_wrapper">
       <section class="section">
         <h2>携帯電話会社と契約なしで生活できるのか？</h2>
         <h3>目次</h3>
