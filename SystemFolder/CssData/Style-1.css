@@ -13,9 +13,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 15.4       |
+  |  ThisStyleVersion: 15.5       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-05-31       |
+  |  LastUpdate: 2023-06-01       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -286,22 +286,6 @@ tr {
 td {
   border: 1px solid #0055ff;
   padding: 5px;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-}
-.left {
-  display: flex;
-  justify-content: flex-start;
-}
-.right {
-  display: flex;
-  justify-content: flex-end;
-}
-.yokonarabi {
-  display: flex;
 }
 
 .avater {
@@ -888,6 +872,37 @@ textarea {
 .yokoori {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;	
+}
+
+.lr-spacenarabi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-spacenarabi {
+  display: flex;
+  justify-content: space-around;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.yokonarabi {
+  display: flex;
 }
 
 /* ナビゲーションバー調整部
@@ -1390,6 +1405,25 @@ button:active {
 
 .blog_card_image {
   height: 230px;
+}
+
+/* sm版 Flex box調整部
+-----------------------------------------------------------------*/
+
+.yokoori {
+  display: block;
+}
+
+.lr-spacenarabi {
+  display: block;
+}
+
+.all-spacenarabi {
+  display: block;
+}
+
+.yokonarabi {
+  display: block;
 }
 
 /* sm版 フォトボックス調整部

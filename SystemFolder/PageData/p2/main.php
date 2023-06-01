@@ -5,6 +5,17 @@
       <p>ここでは何のブログがあるかを一目で分かりやすくコンテナ型で並べ、周りのブログみたいにごちゃごちゃしないようになっており、ブログ一つ一つにホームに戻るが配置してあります。不備があればフィードバックページよりお知らせください。できる限り、改善できるよう取り組みます。</p>
       <div class="yokoori">
         <article class="blog_card">
+          <a href="../b-ositukenaihansi/content.php" class="blog_card_link">
+            <span class="blog_card_label">New</span>
+            <img class="blog_card_image" src="../../ImageData/mayoi.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
+            <div class="blog_card_info">
+              <time class="blog_card_time" datetime="2023-06-01">2023.06.01</time>
+              <h1 class="blog_card_headline">押しつけがましく話をする人のやめ方</h1>
+              <p class="blog_card_description">とある人の件で、気になったので再度情報を洗い出してせっかくのなので記事にしました。</p>
+            </div>
+          </a> 
+        </article>
+        <article class="blog_card">
           <a href="../b-LinuxWebServer/content.php" class="blog_card_link">
             <span class="blog_card_label">New</span>
             <img class="blog_card_image" src="../../ImageData/computer_server1.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
