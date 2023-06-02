@@ -1,8 +1,8 @@
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 1.2        |
+  |  ThisStyleVersion: 1.3        |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-05-26       |
+  |  LastUpdate: 2023-06-02       |
   |  (^U^)PusyuuJsDesu            |
 ----------------------------------*
 ******************************************/
@@ -24,16 +24,13 @@ let validate = function() {
 	} else {
 		// お名前の形式をチェック
 		if(!validateName(document.form.name.value)){
-			errorElement(document.form.name, "アルファベット以外の文字が入っています。");
-            			flag = false;
+			errorElement(document.form.name, "アルファベットと”-”以外の文字が入っています。");
+            		flag = false;
 		}
 	}
 
 	// メールアドレスの入力をチェック
-	if(document.form.email.value == ""){
-		errorElement(document.form.email, "メールアドレスが入力されていません。");
-		flag = false;
-	} else {
+	if(document.form.email.value !== ""){
 		// メールアドレスの形式をチェック
 		if(!validateMail(document.form.email.value)){
 			errorElement(document.form.email, "メールアドレスが正しくありません。");
@@ -111,7 +108,7 @@ let validateTel = function (val){
 
 
 let validateName = function (val){
-	if (val.match(/^[a-z,A-Z]+$/) == null) {
+	if (val.match(/^[a-z,A-Z,-]+$/) == null) {
 		return false;
 	} else {
 		return true;

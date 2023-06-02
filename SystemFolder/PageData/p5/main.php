@@ -15,23 +15,23 @@
                 </th>
               </tr>
               <tr class="form-1">
-                <th class="form-2"><label>NAME<span>必須</span></label></th>
-                <td class="form-3"><input type="text" name="name" placeholder="例）YAMADA TAROU" value=""></td>
+                <th class="form-2"><label>NAME<span style="color: #ff0000; padding-left: 5px;">必須</span></label></th>
+                <td class="form-3"><input type="text" name="name" placeholder="例）YAMADA-TAROU" value=""></td>
               </tr>
               <tr class="form-1">
-                <th class="form-2"><label>E-MAILE<span>必須</span></label></th>
+                <th class="form-2"><label>E-MAILE<span style="color: #00ff00; padding-left: 5px;">任意</span></label></th>
                 <td class="form-3"><input type="text" name="email" placeholder="例）guest@example.com" value=""></td>
               </tr>
               <tr class="form-1">
-                <th class="form-2"><label>SEX<span>必須</span></label></th>
+                <th class="form-2"><label>SEX<span style="color: #ff0000; padding-left: 5px;">必須</span></label></th>
                 <td class="form-3"><input type="radio" name="sex" value="男性" checked>男性<input type="radio" name="sex" value="女性">女性</td>
               </tr>
               <tr class="form-1">
-                <th class="form-2"><label>SELECT INQUIRY<span>必須</span></th></label>
+                <th class="form-2"><label>SELECT INQUIRY<span style="color: #ff0000; padding-left: 5px;">必須</span></th></label>
                   <td class="form-3"><select name="item"><option value="">お問い合わせ項目を選択</option><option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option><option value="ご意見・ご感想">ご意見・ご感想</option></select></td>
               </tr>
               <tr class="form-1">
-                <th class="form-2"><label>INQUIRYDETAIL<span>必須</span></th></label>
+                <th class="form-2"><label>INQUIRYDETAIL<span style="color: #ff0000; padding-left: 5px;">必須</span></th></label>
                   <td class="form-3"><textarea name="content" rows="5" placeholder="お問合せ内容を入力"></textarea></td>
               </tr>
             </table>
