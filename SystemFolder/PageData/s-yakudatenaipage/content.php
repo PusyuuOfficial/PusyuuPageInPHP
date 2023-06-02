@@ -1,3 +1,3 @@
 <?php $title = 'プシューサービス - なにも役に立たないページ'; include('../HeaderAndFooter/header.php'); ?>
-<?php include('main.php'); ?>
-<?php include('../HeaderAndFooter/footer.php'); ?>
+<?php require_once('main.php'); ?>
+<?php require_once('../HeaderAndFooter/footer.php'); ?>

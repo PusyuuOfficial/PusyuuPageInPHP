@@ -69,7 +69,7 @@
           <nav class="nav_nav">
             <ul class="nav_ul">
               <li class="nav_li"><a class="nav_a" href="../p1/content.php">HOME</a></li>
-              <li class="nav_li"><a class="nav_a" href="../p2/content.php">PusyuuBlog</a></li>
+              <li class="nav_li"><a class="nav_a" href="../p2/content.php">PusyuuLog</a></li>
               <li class="nav_li"><a class="nav_a" href="../p3/content.php">PusyuuRoom</a></li>
               <li class="nav_li"><a class="nav_a" href="../p4/content.php">PusyuuNewsInfo</a></li>
               <li class="nav_li"><a class="nav_a" href="../p5/content.php">Contact</a></li>
