@@ -5,7 +5,7 @@
       <p>ここでは何のブログがあるかを一目で分かりやすくコンテナ型で並べ、周りのブログみたいにごちゃごちゃしないようになっており、ブログ一つ一つにホームに戻るが配置してあります。不備があればフィードバックページよりお知らせください。できる限り、改善できるよう取り組みます。</p>
       <div class="yokoori">
         <article class="blog_card">
-          <a href="../b-ositukenaihansi/content.php" class="blog_card_link">
+          <a href="../b-kiwoharu/content.php" class="blog_card_link">
             <span class="blog_card_label">New</span>
             <img class="blog_card_image" src="../../ImageData/kekka.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
             <div class="blog_card_info">
