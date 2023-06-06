@@ -7,6 +7,17 @@
         <article class="blog_card">
           <a href="../b-ositukenaihansi/content.php" class="blog_card_link">
             <span class="blog_card_label">New</span>
+            <img class="blog_card_image" src="../../ImageData/kekka.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
+            <div class="blog_card_info">
+              <time class="blog_card_time" datetime="2023-06-06">2023.06.06</time>
+              <h1 class="blog_card_headline">気を張ることが大切な気がした</h1>
+              <p class="blog_card_description">気を張ることが大切な気がしてアウトプットしたかったので記事にしました。</p>
+            </div>
+          </a> 
+        </article>
+        <article class="blog_card">
+          <a href="../b-ositukenaihansi/content.php" class="blog_card_link">
+            <span class="blog_card_label">New</span>
             <img class="blog_card_image" src="../../ImageData/mayoi.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
             <div class="blog_card_info">
               <time class="blog_card_time" datetime="2023-06-01">2023.06.01</time>
@@ -39,7 +50,7 @@
         </article>
         <article class="blog_card">
           <a href="../b-zinseinohiketu/content.php" class="blog_card_link">
-            <span class="blog_card_label">New</span>
+            <span class="blog_card_label">Old</span>
             <img class="blog_card_image" src="../../ImageData/mayoi.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
             <div class="blog_card_info">
               <time class="blog_card_time" datetime="2023-03-03">2023.03.03</time>
@@ -50,7 +61,7 @@
         </article>
         <article class="blog_card">
           <a href="../b-denwanasiseikatu/content.php" class="blog_card_link">
-            <span class="blog_card_label">New</span>
+            <span class="blog_card_label">Old</span>
             <img class="blog_card_image" src="../../ImageData/sim_card.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
             <div class="blog_card_info">
               <time class="blog_card_time" datetime="2023-02-05">2023.02.05</time>
@@ -61,7 +72,7 @@
         </article>
         <article class="blog_card">
           <a href="../b-situkoi/content.php" class="blog_card_link">
-            <span class="blog_card_label">New</span>
+            <span class="blog_card_label">Old</span>
             <img class="blog_card_image" src="../../ImageData/akutoku_shouhou_denwa_kanyu.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
             <div class="blog_card_info">
               <time class="blog_card_time" datetime="2022-12-24">2022.12.24</time>
