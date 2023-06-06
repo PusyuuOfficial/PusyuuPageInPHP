@@ -4,7 +4,7 @@
       <h2 id="p2">プシューの部屋</h2>
       <h3>最近の出来事への一言</h3>
       <div class="photo_frame-1">
-        <a href="#modal"><img src="../../ImageData/kyouno_pusyuu/1.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+        <a href="#modal"><img src="../../ImageData/kyouno_pusyuu/1.jpg" alt="画像" class="img-rs_boxsaidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
       </div>
       <div id="modal" class="modal">
         <div class="modal_message-wrapper">
