@@ -6,7 +6,7 @@ body {
   background-color: rgba(150, 150, 150, 0.2);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  background-image: url("2.jpg");
+  background-image: url("1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,9 +15,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 3.4        |
+  |  ThisStyleVersion: 3.5        |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-05-19       |
+  |  LastUpdate: 2023-06-06       |
   |  ・。・ﾌﾟｼｭｰ・・・。          |
 ----------------------------------*
 ******************************************/
@@ -42,7 +42,7 @@ p {
  color: #FFF;
 }
 h1 {
- color: #FF00F0;
+ color: #00FF00;
 }
 h2 {
   color: #000000;
@@ -116,10 +116,27 @@ a:hover {
   padding: 10px;
 }
 
-.gate_link_content {
-  padding: 10px;
+.gate_box {
   margin: 5px;
+  width: 350px;
   border: 1px solid rgba(50,130,180,0.5);
+  transition: all .25s;
+}
+.gate_box:hover {
+  border: 1px solid rgba(50,220,100,0.8);
+  background-color: rgba(0,0,0,0.3);
+}
+.gate_link {
+
+}
+.gate_box_content {
+  padding: 10px;
+}
+
+.yokoori {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* プロフィール調整部
@@ -186,6 +203,10 @@ button:active {
 button {
   font-size: 20px;
   width: 94%;
+}
+
+.gate_box {
+  width: 200px;
 }
 
 }
