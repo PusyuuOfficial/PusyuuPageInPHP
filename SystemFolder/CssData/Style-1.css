@@ -554,7 +554,11 @@ td {
 .img-rs_saidai {
   width: 100vw;
   height: 100vh;
-  //object-fit: cover;
+}
+
+.img-rs_boxsaidai {
+  width: 100%;
+  height: 100%;
 }
 
 /* プロフィール調整部 
