@@ -17,11 +17,15 @@
       <p>傷つきやすい方へ、私管理者も結構傷つきやすい体質で結構昔はボロボロになるなんてしょっちゅうでした。それをどうにかしようとした時に気が付いたことがあります。相手は変えられない、なので自分が変わる。意味を掲示板などでいうのであればひどい書き込みは相手の感想であってそれがすべてじゃないことを知ってください。そして、あなたを応援できる人は世界中にいるし世界中の人全員に嫌われることもありません、そして、全員に好かれることもできません。</p>
       <p class="text"><a href="https://21emon.wjg.jp/cgi-bin/public/log_json/board.php" target="_blank">BBSへジャンプ</a></p>
       <h3>アップデート情報</h3>
-      <marquee style="border: 1px solid #fff; background-color: rgba(0,0,0,0.4); color: #fff;" scrollamount="4">今回の更新では、CSSの整理とそれに伴い一部クラス名を変更、フッターデザインの変更、等をしました。このページのバージョン25.6</marquee>
+      <marquee style="border: 1px solid #fff; background-color: rgba(0,0,0,0.4); color: #fff;" scrollamount="4">今回の更新では、更新通知を端折ってた分のバグがたまってきたためバグ修正（独り言：バグ修正という言葉で直した箇所を言わなくても済んでしまうからなんかつい使ってしまう。）、等をしました。このページのバージョン25.7</marquee>
       <h3>アップデート履歴</h3>
       <div class="update_log_box">
         <div class="update_log_child_box">
-          <time class="update_log_time_box" datetime="2023-05-27">2023.05.15</time>
+          <time class="update_log_time_box" datetime="2023-05-31">2023.05.31</time>
+          <p class="update_log_content_box">CSSの整理とそれに伴い一部クラス名を変更、フッターデザインの変更、等をしました。当時のバージョン25.6</p>
+        </div>
+        <div class="update_log_child_box">
+          <time class="update_log_time_box" datetime="2023-05-27">2023.05.27</time>
           <p class="update_log_content_box">プシューサービスに顔文字制作機とメモ帳の追加、モーダルウィンドウによる画像拡大機能をすべてのページに配置、ハンバーガーメニューをCSSハンバーガーメニューをからモーダルハンバーガーメニューへ変更、相互リンク機能を追加、相互リンクに”256server”さんを追加、めんどくさいので修正箇所は伏せますが大型なバグ修正、等をしました。当時のバージョン25.5</p>
         </div>
         <div class="update_log_child_box">
