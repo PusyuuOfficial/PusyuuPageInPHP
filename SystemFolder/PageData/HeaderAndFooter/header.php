@@ -8,7 +8,7 @@
   <meta name="twitter:card" content="Summary_large_Image">
   <meta name="twitter:site" content="@PusyuuOfficial">
   <meta name="twitter:title" content="プシューサービス - PusyuuPage">
-  <meta name="twitter:description" content="プシューページ(PusyuuPage)では、プシューブログや、プシューの部屋、プシューが作ったサービス、等を閲覧、使用することができます。">
+  <meta name="twitter:description" content="プシューページ(PusyuuPage)では、プシューログ(PusyuuLog)でブログを見たり、プシューの部屋(PusyuuRoom)では最近の出来事紹介を見たり、プシューが作ったサービスを使ったりと、様々なコンテンツを楽しむことができます。">
   <meta name="twitter:image" content="http://21emon.wjg.jp/SystemFolder/IconData/logo-black.png">
   <title><?php echo $title; ?></title>
   <link rel="stylesheet" href="../../CssData/Style-1.css">
