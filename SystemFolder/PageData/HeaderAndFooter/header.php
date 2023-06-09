@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=6.0, minimum-scale=1.0">
-  <meta name='description' content='プシューページ(PusyuuPage)では、プシューブログや、プシューの部屋、プシューが作ったサービス、等を閲覧、使用することができます。'>
-  <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=6.0, minimum-scale=1.0">
+  <meta name='description' content='プシューページ(PusyuuPage)では、プシューログ(PusyuuLog)でブログを見たり、プシューの部屋(PusyuuRoom)では最近の出来事紹介を見たり、プシューが作ったサービスを使ったりと、様々なコンテンツを楽しむことができます。'>
   <meta name="twitter:card" content="Summary_large_Image">
   <meta name="twitter:site" content="@PusyuuOfficial">
   <meta name="twitter:title" content="プシューサービス - PusyuuPage">
