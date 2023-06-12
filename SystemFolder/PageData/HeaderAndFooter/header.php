@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=6.0, minimum-scale=1.0">
-  <meta name='description' content='プシューページ(PusyuuPage)では、プシューログ(PusyuuLog)でブログを見たり、プシューの部屋(PusyuuRoom)では最近の出来事紹介を見たり、プシューが作ったサービスを使ったりと、様々なコンテンツを楽しむことができます。'>
+  <meta name='description' content='<?php echo $description; ?>'>
   <meta name="twitter:card" content="Summary_large_Image">
   <meta name="twitter:site" content="@PusyuuOfficial">
-  <meta name="twitter:title" content="プシューサービス - PusyuuPage">
-  <meta name="twitter:description" content="プシューページ(PusyuuPage)では、プシューログ(PusyuuLog)でブログを見たり、プシューの部屋(PusyuuRoom)では最近の出来事紹介を見たり、プシューが作ったサービスを使ったりと、様々なコンテンツを楽しむことができます。">
+  <meta name="twitter:title" content="<?php echo $title; ?>">
+  <meta name="twitter:description" content="<?php echo $description; ?>">
   <meta name="twitter:image" content="http://21emon.wjg.jp/SystemFolder/IconData/logo-black.png">
   <title><?php echo $title; ?></title>
   <link rel="stylesheet" href="../../CssData/Style-1.css">
@@ -15,9 +15,9 @@
   <script src="../../JsData/Script.js" type="text/javascript" charset="UTF-8"></script>
   <!--
       *----------------------------------
-      |  ThisPageVersion: 25.7        |
+      |  ThisPageVersion: 25.8        |
       |  © 2021-2023 By Pusyuu        |
-      |  LastUpdate: 2023-06-08       |
+      |  LastUpdate: 2023-06-12       |
       |  ・。・プシューページ㌨       |
     ----------------------------------*
     -->

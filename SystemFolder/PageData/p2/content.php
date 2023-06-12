@@ -1,3 +1,7 @@
-<?php $title = 'PusyuuPage - PusyuuBlog'; require_once('../HeaderAndFooter/header.php'); ?>
+<?php
+$description = 'ここでは、プシューが書いたブログを見ることができます。どのようなジャンルをプシューは書くのか：大抵はSNS等でたまたま投稿したものがよかったと感じた時のコンテンツや、日常的に考え事をしていて煮詰まった時や、過去のことをかき出したくなったことなどをブログという形で配信しています。どういう方に向いているか：あまり知られてない価値観を知りたい方、機械的なことを知りたい方、暇なんだけどやることがない方、等などにおすすめです。注意点：上記でも説明した通りプシューの主観が入ることがあります。なので”こういう考えもあるんだな～”程度で閲覧していただけると嬉しいです。';
+$title = 'PusyuuService - PusyuuRoom';
+require_once('../HeaderAndFooter/header.php');
+?>
 <?php require_once('./main.php'); ?>
 <?php require_once('../HeaderAndFooter/footer.php'); ?>
