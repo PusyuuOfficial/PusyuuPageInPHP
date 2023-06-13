@@ -8,7 +8,7 @@
   <meta name="twitter:site" content="@PusyuuOfficial">
   <meta name="twitter:title" content="<?php echo $title; ?>">
   <meta name="twitter:description" content="<?php echo $description; ?>">
-  <meta name="twitter:image" content="http://21emon.wjg.jp/SystemFolder/IconData/logo-black.png">
+  <meta name="twitter:image" content="https://21emon.wjg.jp/SystemFolder/IconData/logo-black.png">
   <title><?php echo $title; ?></title>
   <link rel="stylesheet" href="../../CssData/Style-1.css">
   <link rel="shortcut icon" href="../../IconData/favicon.ico">
