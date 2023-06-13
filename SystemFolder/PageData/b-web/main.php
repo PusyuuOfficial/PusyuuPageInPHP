@@ -36,10 +36,13 @@
           <p>これを見ながら書いてみてください</p>
           <a href="#modal-1"><img src="../../ImageData/41.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-1" class="modal">
-            <div class="modal_message-wrapper">
+            <div class="modal_wrapper">
               <a href="#mc" class="modal_close"></a>
-              <div class="modal_message-box">
+              <div class="modal_content-wrapper">
+                <div class="modal_header">拡大画像</div>
+                <div class="modal_message-box">
                 <img src="../../ImageData/41.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                </div>
               </div>
             </div>
           </div>
@@ -48,10 +51,13 @@
           <p>これを見ながら書いてみてください</p>
           <a href="#modal-2"><img src="../../ImageData/42.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-2" class="modal">
-            <div class="modal_message-wrapper">
+            <div class="modal_wrapper">
               <a href="#mc" class="modal_close"></a>
-              <div class="modal_message-box">
+              <div class="modal_content-wrapper">
+                <div class="modal_header">拡大画像</div>
+                <div class="modal_message-box">
                 <img src="../../ImageData/42.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                </div>
               </div>
             </div>
           </div>

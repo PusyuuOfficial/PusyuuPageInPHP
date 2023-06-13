@@ -8,10 +8,13 @@
           <h3>電離層画像</h3>
           <a href="#modal-1"><img src="../../ImageData/39.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
           <div id="modal-1" class="modal">
-            <div class="modal_message-wrapper">
+            <div class="modal_wrapper">
               <a href="#mc" class="modal_close"></a>
-              <div class="modal_message-box">
+              <div class="modal_content-wrapper">
+                <div class="modal_header">拡大画像</div>
+                <div class="modal_message-box">
                 <img src="../../ImageData/39.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                </div>
               </div>
             </div>
           </div>
@@ -37,10 +40,13 @@
           <h3>回路図</h3>
           <a href="#modal-2"><img src="../../ImageData/37.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-2" class="modal">
-            <div class="modal_message-wrapper">
+            <div class="modal_wrapper">
               <a href="#mc" class="modal_close"></a>
-              <div class="modal_message-box">
+              <div class="modal_content-wrapper">
+                <div class="modal_header">拡大画像</div>
+                <div class="modal_message-box">
                 <img src="../../ImageData/37.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                </div>
               </div>
             </div>
           </div>
@@ -57,10 +63,13 @@
           <h3>改造した後の回路図</h3>
           <a href="#modal-3"><img src="../../ImageData/38.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-3" class="modal">
-            <div class="modal_message-wrapper">
+            <div class="modal_wrapper">
               <a href="#mc" class="modal_close"></a>
-              <div class="modal_message-box">
+              <div class="modal_content-wrapper">
+                <div class="modal_header">拡大画像</div>
+                <div class="modal_message-box">
                 <img src="../../ImageData/38.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                </div>
               </div>
             </div>
           </div>
@@ -69,10 +78,13 @@
           <h3>私が作った短波中波ラジオ</h3>
           <a href="#modal-4"><img src="../../ImageData/40.jpg" alt="画像" class="img-rs_tyuu" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
           <div id="modal-4" class="modal">
-            <div class="modal_message-wrapper">
+            <div class="modal_wrapper">
               <a href="#mc" class="modal_close"></a>
-              <div class="modal_message-box">
+              <div class="modal_content-wrapper">
+                <div class="modal_header">拡大画像</div>
+                <div class="modal_message-box">
                 <img src="../../ImageData/40.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+                </div>
               </div>
             </div>
           </div>
