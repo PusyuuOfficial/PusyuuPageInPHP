@@ -13,9 +13,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 15.7       |
+  |  ThisStyleVersion: 15.8       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-08       |
+  |  LastUpdate: 2023-06-13       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -32,7 +32,7 @@ html {
 }
 
 h1 {color: #00ff7f;}
-//h2 {color: #ffffff;}
+/*h2 {color: #ffffff;}*/
 h3 {color: #80ff00;}
 h4 {color: #6699ff;}
 p  {color: #ffffff;}
@@ -47,9 +47,7 @@ button {
   color: #000;
   background: #00d5ff;
   box-shadow: 5px 5px 0 #000;
-  transition: box-shadow .0.3s
-  transition: background 0.3s;
-  transition: color 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, color 0.3s;
 }
 button:hover {
   color: #fff;
@@ -78,7 +76,8 @@ h2:after {
   background-image: -ms-linear-gradient(left, #00ffff, #00ff00);
 }
 
-//h2 {
+/*
+h2 {
   background-image: url("../ImageData/green0074.png");
   background-size: cover;
   //background: radial-gradient(circle at left, #00ff00 0%, #00ffff 100%);
@@ -91,8 +90,10 @@ h2:after {
   color: #fff;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.50);
 }
+*/
 
-//h2 {
+/*
+h2 {
   font-size: 2em;
   text-aligin: center;
   line-height: 0.95em;
@@ -100,6 +101,7 @@ h2:after {
   color: #FFF;
   text-shadow: 0 0 0.10em #2962FF, 0 0 0.15em #2962FF, 0 0 0.80em #2962FF, 0 0 1.00em #2962FF; 
 }
+*/
 
 .senn-1 {
   height: 5px;
