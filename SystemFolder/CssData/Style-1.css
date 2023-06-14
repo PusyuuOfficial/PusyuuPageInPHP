@@ -13,9 +13,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 15.9       |
+  |  ThisStyleVersion: 16.0       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-13       |
+  |  LastUpdate: 2023-06-14       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -39,6 +39,7 @@ p  {color: #ffffff;}
 th {color: #ffffff;}
 td {color: #ffffff;}
 li {color: #FFFFFF;}
+label {color: #ffffff;}
 
 button {
   border-radius: 3px;
@@ -233,24 +234,31 @@ opacity: 1;
   margin-left: 250px;
 }
 .modal .modal_content-wrapper {
-  background-color: rgba(225,225,225,0.5);
+  position: relative;
+  background-color: #333333;
+/*
+  background-color: rgba(150,255,50,0.3);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  padding: 10px;
-  position: relative;
+*/
+  border-radius: 5px;
+  cursor: default;
 }
 .modal .modal_header {
-  border-bottom: 1px solid #fff;
-  color: #1a1a1a;
-  padding: 3px;
-  height: 35px;
+  color: #00d5ff;
+  padding: 10px;
+  font-size: 20px;
+  height: 30px;
   width: auto;
 }
+.modal .modal_border {
+  border: 1px solid #00d5ff;
+}
 .modal .modal_message-box {
-  overflow: scroll;
   padding: 10px;
+  overflow: scroll;
   height: 50vh;
-  width: 50vw;
+  width: 60vw;
 }
 .modal .modal_close {
   position: relative;
@@ -264,7 +272,6 @@ opacity: 1;
   position: fixed;
   top: 0;
   left: 0;
-  cursor: default;
 }
 .modal .modal_close::after {
   content: "×";
@@ -583,7 +590,7 @@ td {
   backdrop-filter: blur(15px);
   width: 50vw;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
 }
 
@@ -652,7 +659,7 @@ textarea {
   backdrop-filter: blur(15px);
   background-color: rgba(225,150,225,0.3);
   transition: background-color .25s;
-  border-radius: 2px;
+  border-radius: 5px;
   overflow: hidden;
 }
 
@@ -687,7 +694,7 @@ textarea {
   background-color: rgba(225,150,225,0.3);
   position: relative;
   transition: background-color .25s;
-  border-radius: 2px;
+  border-radius: 5px;
   overflow: hidden;
 }
 
@@ -741,7 +748,7 @@ textarea {
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   background-color: rgba(50,50,100,0.3);
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .update_log_child_box {

@@ -12,6 +12,7 @@
               <a href="#mc" class="modal_close"></a>
               <div class="modal_content-wrapper">
                 <div class="modal_header">拡大画像</div>
+                <div class="modal_border"></div>
                 <div class="modal_message-box">
                 <img src="../../ImageData/39.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
                 </div>
@@ -44,6 +45,7 @@
               <a href="#mc" class="modal_close"></a>
               <div class="modal_content-wrapper">
                 <div class="modal_header">拡大画像</div>
+                <div class="modal_border"></div>
                 <div class="modal_message-box">
                 <img src="../../ImageData/37.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
                 </div>
@@ -67,6 +69,7 @@
               <a href="#mc" class="modal_close"></a>
               <div class="modal_content-wrapper">
                 <div class="modal_header">拡大画像</div>
+                <div class="modal_border"></div>
                 <div class="modal_message-box">
                 <img src="../../ImageData/38.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
                 </div>
@@ -82,6 +85,7 @@
               <a href="#mc" class="modal_close"></a>
               <div class="modal_content-wrapper">
                 <div class="modal_header">拡大画像</div>
+                <div class="modal_border"></div>
                 <div class="modal_message-box">
                 <img src="../../ImageData/40.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
                 </div>
