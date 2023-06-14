@@ -28,7 +28,7 @@
                   <input type="text" id="lefteyes" placeholder="左目の記号を入力">
                   <label for="nose">口</label>
                   <input type="text" id="nose" placeholder="口の記号を入力">
-                  <label for="righteyes">>右目</label>
+                  <label for="righteyes">右目</label>
                   <input type="text" id="righteyes" placeholder="右目の記号を入力">
                   <label for="righthand">右手</label>
                   <input type="text" id="righthand" placeholder="右手の記号を入力">
