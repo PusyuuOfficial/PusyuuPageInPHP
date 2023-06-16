@@ -15,9 +15,9 @@
   <script src="../../JsData/Script.js" type="text/javascript" charset="UTF-8"></script>
   <!--
       *----------------------------------
-      |  ThisPageVersion: 25.9        |
+      |  ThisPageVersion: 26.0        |
       |  © 2021-2023 By Pusyuu        |
-      |  LastUpdate: 2023-06-14       |
+      |  LastUpdate: 2023-06-16       |
       |  ・。・プシューページ㌨       |
     ----------------------------------*
     -->
@@ -34,16 +34,22 @@
       <div class="box-6">
         <p>次の可能性が考えられます。</p>
         <div class="box-7">
-          <li>このページとの互換性がブラウザに無い↓</li>
+          <h3>このページとの互換性がブラウザに無い↓</h3>
           <p>新しいバージョンのブラウザにアップデートするか別のブラウザで開いてください。</p>
         </div>
         <div class="box-7">
-          <li>途中でキャッシュが削除され、ループ状態になっている↓</li>
+          <h3>途中でキャッシュが削除され、ループ状態になっている↓</h3>
           <p>このページをリロードしてみてください。</p>
         </div>
         <div class="box-7">
-          <li>JavaScriptが無効になっている↓</li>
+          <h3>JavaScriptが無効になっている↓</h3>
           <p>ブラウザ設定で有効になっているか確認してみてください。</p>
+        </div>
+        <div class="box-7">
+          <h3>手動で強制的に画面を切り替える↓</h3>
+          <p>こちらのボタンを押して強制的に切り替えてみてください。</p>
+          <p>※こちらの機能は、javascriptが有効になってないと機能しません。</p>
+          <button style="margin: 10px;" onclick="document.getElementById('loading').classList.add('loaded')">強制切り替え</button>
         </div>
       </div>
     </details>

@@ -17,9 +17,13 @@
       <p>傷つきやすい方へ、私管理者も結構傷つきやすい体質で結構昔はボロボロになるなんてしょっちゅうでした。それをどうにかしようとした時に気が付いたことがあります。相手は変えられない、なので自分が変わる。意味を掲示板などでいうのであればひどい書き込みは相手の感想であってそれがすべてじゃないことを知ってください。そして、あなたを応援できる人は世界中にいるし世界中の人全員に嫌われることもありません、そして、全員に好かれることもできません。</p>
       <p class="text"><a href="https://21emon.wjg.jp/cgi-bin/public/log_json/board.php" target="_blank">BBSへジャンプ</a></p>
       <h3>アップデート情報</h3>
-      <marquee style="border: 1px solid #fff; background-color: rgba(0,0,0,0.4); color: #fff;" scrollamount="4">今回の更新では、モーダルウィンドウにヘッダーに付け、モーダルヘッダーのバグ修正、プロフィールの内容を更新、背景画像を変更、ブログやサービスの過度の丸さの統一化、等をしました。このページのバージョン25.9</marquee>
+      <marquee style="border: 1px solid #fff; background-color: rgba(0,0,0,0.4); color: #fff;" scrollamount="4">今回の更新では、背景変更、モーダルウィンドウのデザイン変更、みすぼらしい画面消しの”切り替わらない策欄”に解決法を一つ追加、等をしました。このページのバージョン26.0</marquee>
       <h3>アップデート履歴</h3>
       <div class="update_log_box">
+        <div class="update_log_child_box">
+          <time class="update_log_time_box" datetime="2023-06-14">2023.06.14</time>
+          <p class="update_log_content_box">モーダルウィンドウにヘッダーに付け、モーダルヘッダーのバグ修正、プロフィールの内容を更新、背景画像を変更、ブログやサービスの過度の丸さの統一化、等をしました。当時のバージョン25.9</p>
+        </div>
         <div class="update_log_child_box">
           <time class="update_log_time_box" datetime="2023-06-12">2023.06.12</time>
           <p class="update_log_content_box">PHP側の概要表示バグを修正、少々ページタイトルを変更、プシューログの説明を変更、等をしました。当時のバージョン25.8</p>

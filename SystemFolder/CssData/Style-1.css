@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-  background-image: url("3.jpg");
+  background-image: url("4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -13,9 +13,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 16.1       |
+  |  ThisStyleVersion: 16.2       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-14       |
+  |  LastUpdate: 2023-06-16       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -235,24 +235,21 @@ opacity: 1;
 }
 .modal .modal_content-wrapper {
   position: relative;
-  background-color: #333333;
-/*
-  background-color: rgba(150,255,50,0.3);
+  background-color: rgba(60,140,225,0.4);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-*/
   border-radius: 5px;
   cursor: default;
 }
 .modal .modal_header {
-  color: #00d5ff;
+  color: #66ffff;
   padding: 10px;
   font-size: 20px;
   height: 30px;
   width: auto;
 }
 .modal .modal_border {
-  border: 1px solid #00d5ff;
+  border-bottom: 1px solid #cccccc;
 }
 .modal .modal_message-box {
   padding: 10px;
