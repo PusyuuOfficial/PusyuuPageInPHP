@@ -13,9 +13,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 16.2       |
+  |  ThisStyleVersion: 16.3       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-16       |
+  |  LastUpdate: 2023-06-17       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -76,33 +76,6 @@ h2:after {
   background-image: -webkit-linear-gradient(left, #00ffff, #00ff00);
   background-image: -ms-linear-gradient(left, #00ffff, #00ff00);
 }
-
-/*
-h2 {
-  background-image: url("../ImageData/green0074.png");
-  background-size: cover;
-  //background: radial-gradient(circle at left, #00ff00 0%, #00ffff 100%);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 5px;
-  padding-left: 20px;
-  border-radius: 5px;
-  //border: 2px solid #fff;
-  color: #fff;
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.50);
-}
-*/
-
-/*
-h2 {
-  font-size: 2em;
-  text-aligin: center;
-  line-height: 0.95em;
-  font-weight: bold;
-  color: #FFF;
-  text-shadow: 0 0 0.10em #2962FF, 0 0 0.15em #2962FF, 0 0 0.80em #2962FF, 0 0 1.00em #2962FF; 
-}
-*/
 
 .senn-1 {
   height: 5px;
@@ -232,6 +205,15 @@ opacity: 1;
 .modal .modal_wrapper {
   position: fixed;
   margin-left: 250px;
+  animation: m-show 0.3s linear 0s;
+}
+@keyframes m-show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .modal .modal_content-wrapper {
   position: relative;
@@ -271,7 +253,7 @@ opacity: 1;
   left: 0;
 }
 .modal .modal_close::after {
-  content: "×";
+  content: "✕";
   color: white;
   position: absolute;
   right: -13px;
@@ -504,9 +486,9 @@ td {
 -----------------------------------------------------------------*/
 
 .main {
-  //margin-top: 0px;
+  /*margin-top: 0px;*/
   margin-left: 250px;
-  //margin-right: 150px;
+  /*margin-right: 150px;*/
   background-color: rgba(0,0,0,0.5);
   word-break: break-all;
   height: auto;
@@ -527,8 +509,8 @@ td {
 
 .footer {
   margin-left: 250px;
-  //margin-right: 150px;
-  //margin-bottom: 85px;
+  /*margin-right: 150px;*/
+  /*margin-bottom: 85px;*/
   background-color: #333333;
   height: 200px;
   display: flex;
@@ -582,7 +564,7 @@ td {
 -----------------------------------------------------------------*/
 
 .profile {
-  background-color: rgba(50,50,50,0.3);
+  background-color: rgba(0,200,250,0.3);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   width: 50vw;
@@ -654,7 +636,7 @@ textarea {
   height: 300px;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  background-color: rgba(225,150,225,0.3);
+  background-color: rgba(0,200,250,0.3);
   transition: background-color .25s;
   border-radius: 5px;
   overflow: hidden;
@@ -688,7 +670,7 @@ textarea {
   text-decoration: none;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  background-color: rgba(225,150,225,0.3);
+  background-color: rgba(0,200,250,0.3);
   position: relative;
   transition: background-color .25s;
   border-radius: 5px;
@@ -744,7 +726,7 @@ textarea {
   padding: 15px;
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  background-color: rgba(50,50,100,0.3);
+  background-color: rgba(0,200,250,0.3);
   border-radius: 5px;
 }
 
@@ -1150,14 +1132,14 @@ button:active {
   padding: 5px;
   display: inline-block;
   overflow: scroll;
-  animation: show 0.1s linear 0s;
+  animation: h-show 0.1s linear 0s;
 }
 
-@keyframes show{
-  from{
+@keyframes h-show {
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
@@ -1246,8 +1228,8 @@ button:active {
   width: auto;
   background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 0 5px 20px rgba(100, 255, 255, 0.0);
-  //border-radius:15px;
-  //overflow: hidden;
+  /*border-radius:15px;*/
+  /*overflow: hidden;*/
 }
 
 .header_nav {
@@ -1264,9 +1246,9 @@ button:active {
 -----------------------------------------------------------------*/
 
 .main {
-  //margin-top: 7%;
+  /*margin-top: 7%;*/
   margin-left: 0;
-  //margin-right: 5%;
+  /*margin-right: 5%;*/
 }
 
 .main_wrapper {
@@ -1279,8 +1261,8 @@ button:active {
 
 .footer {
   margin-left: 0;
-  //margin-right: 5%;
-  //margin-bottom: 0;
+  /*margin-right: 5%;*/
+  /*margin-bottom: 0;*/
   display: block;
 }
 
