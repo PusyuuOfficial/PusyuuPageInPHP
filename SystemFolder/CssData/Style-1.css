@@ -489,7 +489,7 @@ td {
   /*margin-top: 0px;*/
   margin-left: 250px;
   /*margin-right: 150px;*/
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.4);
   word-break: break-all;
   height: auto;
   padding: 10px;
@@ -628,7 +628,7 @@ textarea {
 }
 
 .service_card_info:hover {
-  background-color: #0077b3;
+  background-color: rgba(0,50,250,0.3);
 }
 
 .service_card_info {
@@ -678,7 +678,7 @@ textarea {
 }
 
 .blog_card_link:hover {
-  background-color: #0077b3;
+  background-color: rgba(0,50,250,0.3);
 }
 
 .blog_card_label {
