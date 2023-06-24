@@ -14,7 +14,7 @@
             <div class="modal_content-wrapper">
               <div class="modal_header">顔文字作成画面</div>
               <div class="modal_border"></div>
-              <div class="modal_message-box" style="overflow-y: auto; max-height: 45vh;">
+              <div class="modal_message-box" style="overflow-x: hidden; overflow-y: scroll; max-height: 45vh;">
                 <div style="display: flex; justify-content: center; flex-direction: column;">
                   <label for="outline">輪郭</label>
                   <select id="outline">
