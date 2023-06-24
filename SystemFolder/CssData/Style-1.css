@@ -2,7 +2,7 @@
 
 body {
   background-image: url("8.jpg");
-  background-size: cover;
+  /*background-size: cover;*/
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -12,9 +12,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 16.6       |
+  |  ThisStyleVersion: 16.7       |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-24       |
+  |  LastUpdate: 2023-06-25       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
