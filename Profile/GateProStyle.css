@@ -3,19 +3,32 @@
 body {
   margin: 0;
   padding: 0;
+}
+body::before {
+  content: "";
   background-color: rgba(150, 150, 150, 0.2);
-  background-image: url("2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+/*
   background-attachment: fixed;
+  background-image: url("2.jpg");
+  疑似要素なので無効化とiPhoneでの背景固定のために無効にし代用で↓
+*/
+  background: url("2.jpg");
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 4.0        |
+  |  ThisStyleVersion: 4.0.1      |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-19       |
+  |  LastUpdate: 2023-06-25       |
   |  ・。・ﾌﾟｼｭｰ・・・。          |
 ----------------------------------*
 ******************************************/
