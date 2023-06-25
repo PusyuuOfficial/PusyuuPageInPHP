@@ -6,7 +6,6 @@ body {
 }
 body::before {
   content: "";
-  background-color: rgba(150, 150, 150, 0.2);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -26,7 +25,7 @@ body::before {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 4.0.1      |
+  |  ThisStyleVersion: 4.0.2      |
   |  © 2021-2023 By Pusyuu        |
   |  LastUpdate: 2023-06-25       |
   |  ・。・ﾌﾟｼｭｰ・・・。          |
@@ -53,10 +52,10 @@ p {
  color: #111;
 }
 h1 {
- color: #00aaff;
+ color: #0064ff;
 }
 h2 {
-  color: #33bbff;
+  color: #ebff33;
 }
 
 h3 {
