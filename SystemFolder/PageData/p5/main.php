@@ -6,7 +6,7 @@
       <p>※このフォームでは、暗号化が行われません、なので安全な回線を使って送信をよろしくお願いします。予めご了承ください。</p>
       <div class="center">
         <div class="form_yohaku">
-          <form class="form" action="http://21emon.wjg.jp:1751/confirm.php" method="post" name="form" onsubmit="return validate()">
+          <form class="form" action="https://21emon.wjg.jp/cgi-bin/public/contact_form/confirm.php" method="post" name="form" onsubmit="return validate()">
             <table class="form-table">
               <tr class="form-1">
                 <th class="form-2">
