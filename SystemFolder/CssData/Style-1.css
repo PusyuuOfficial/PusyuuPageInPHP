@@ -25,9 +25,9 @@ body::before {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 16.6.2     |
+  |  ThisStyleVersion: 16.6.3     |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-25       |
+  |  LastUpdate: 2023-06-27       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -62,7 +62,7 @@ button {
   box-shadow: 5px 5px 0 #000;
   transition: background 0.3s, box-shadow 0.3s, color 0.3s;
 }
-button:hover {
+button:active {
   color: #fff;
   box-shadow: 0 0 0 rgba(0,0,0,0.0);
   background: #00aacc;
@@ -971,16 +971,6 @@ textarea {
 
 /* sm tb版 色、模様、サイズ、調整部
 -----------------------------------------------------------------*/
-
-a:active {
-  color: #ff5500;
-}
-
-button:active {
-  color: #fff;
-  box-shadow: 0 0 0 rgba(0,0,0,0.0);
-  background: #00aacc;
-}
 
 .modal .modal_wrapper {
   margin-left: 0px;
