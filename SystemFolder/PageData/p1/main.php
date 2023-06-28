@@ -1,8 +1,8 @@
 <div class="show">
   <strong>PusyuuWorld</strong>
   <div class="scroll">もっと見る（笑）？<span class="arw"></span></div>
-  <//video src="../../VideoData/Show-video.mp4" controlsList="nodownload" muted autoplay playsinline loop oncontextmenu="return false;" preload="auto">
-  <img src="../../ImageData/Show-img.jpg" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+  <video src="../../VideoData/Old-Show-video.mp4" controlsList="nodownload" muted autoplay playsinline loop oncontextmenu="return false;" preload="auto">
+  <//img src="../../ImageData/Show-img.jpg" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
 </div>
 <main class="main">
   <div class="main_wrapper">
@@ -52,7 +52,7 @@
       <p>このページは、1からWindows標準NotePad.exeを使用して、コーディングしてます。</p>
       <p>このページでは、更新される回数が多いので一週間たらずでの背景変更やデザイン変更、コンテンツの移動などが頻繁に起きますので、ご利用の方は予めご了承ください。</p>
       <p>このページでは、めんどくさく端折った為English版ページが存在しませんのでブラウザの拡張機能などで、翻訳してご利用ください。</p>
-      <div class="box-6">
+      <div style="box-shadow: 0 0; border-radius: 5px; border: 0.5px solid #fff;" class="box-8">
         <h3>相互リンク集</h3>
         <p>ここには相互リンクをしたい人がいたら貼る場所です。</p>
         <p>私も相互リンクに関しては勝手にどうぞurlは(http://21emon.wjg.jp)でお願いします。</p>

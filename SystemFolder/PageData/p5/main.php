@@ -4,11 +4,11 @@
       <h2>お問い合わせ</h2>
       <p>お問い合わせフォームでは、ご感想、やご質問などをプシューに届けることができます。</p>
       <p>名前はハンドルネームや名無し等の好きな名前での送信が可能です。</p>
-      <p><span style="color: #ff0000; margin-right: 5px;">このフォームの注意事情</span>個人情報を他人に見られたくない方は個人情報入力をしなくても送信が可能です※必須の部分は空にできないので、上記で説明した内容で記述を行えば送ることができます。暗号化は行われますが、安全な回線を使って送信をよろしくお願いします。</p>
+      <p><span style="color: #ff0000; margin-right: 5px;">このフォームの注意事情:</span>個人情報を他人に見られたくない方は個人情報入力をしなくても送信が可能です※必須の部分は空にできないので、上記で説明した内容で記述を行えば送ることができます。暗号化は行われますが、安全な回線を使って送信をよろしくお願いします。</p>
       <div class="center">
         <div class="form_yohaku">
           <form class="form" action="https://21emon.wjg.jp/cgi-bin/public/contact_form/confirm.php" method="post" name="form" onsubmit="return validate()">
-            <table class="form-table">
+            <table style="border: 0.5px solid #fff;" class="form-table">
               <tr class="form-1">
                 <th class="form-2">
                   <h3>お問い合わせ 内容入力</h3>
