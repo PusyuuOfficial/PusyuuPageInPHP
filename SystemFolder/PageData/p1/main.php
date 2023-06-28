@@ -1,7 +1,7 @@
 <div class="show">
   <strong>PusyuuWorld</strong>
   <div class="scroll">もっと見る（笑）？<span class="arw"></span></div>
-  <video src="../../VideoData/Old-Show-video.mp4" controlsList="nodownload" muted autoplay playsinline loop oncontextmenu="return false;" preload="auto">
+  <video src="../../VideoData/old-Show-video.mp4" controlsList="nodownload" muted autoplay playsinline loop oncontextmenu="return false;" preload="auto">
   <//img src="../../ImageData/Show-img.jpg" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
 </div>
 <main class="main">
