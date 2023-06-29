@@ -8,9 +8,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 16.7.0     |
+  |  ThisStyleVersion: 16.7.1     |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-28       |
+  |  LastUpdate: 2023-06-29       |
   |  ・。・ﾌﾟｼｭｰ㌨？・・・        |
 ----------------------------------*
 ******************************************/
@@ -595,6 +595,12 @@ td {
   margin: 10px;
 }
 
+.form-table,
+.form-table th,
+.form-table td {
+  border: 0.5px solid #fff;
+}
+
 .error-form {
   color: #ff0000;
   border: 1px solid #ff0000;
@@ -964,6 +970,14 @@ textarea {
 
 .modal .modal_wrapper {
   margin-left: 0px;
+}
+
+table,
+table tbody,
+table tr,
+table th,
+table td {
+  display: block;
 }
 
 /* sm tb版 CSSだけでハンバーガーメニュー
@@ -1344,17 +1358,6 @@ textarea {
 .img-rs_dai {
   width: 50vw;
   height: auto;
-}
-
-/* sm tb版 フォームAUTOリサイズ
------------------------------------------------------------------*/
-
-.form-table,
-.form-table tbody,
-.form-table tr,
-.form-table th,
-.form-table td {
-  display: block;
 }
 
 }

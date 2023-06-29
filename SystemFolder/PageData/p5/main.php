@@ -8,7 +8,7 @@
       <div class="center">
         <div class="form_yohaku">
           <form class="form" action="https://21emon.wjg.jp/cgi-bin/public/contact_form/confirm.php" method="post" name="form" onsubmit="return validate()">
-            <table style="border: 0.5px solid #fff;" class="form-table">
+            <table class="form-table">
               <tr class="form-1">
                 <th class="form-2">
                   <h3>お問い合わせ 内容入力</h3>
