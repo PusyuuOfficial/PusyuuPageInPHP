@@ -17,9 +17,13 @@
       <p>傷つきやすい方へ、私管理者も結構傷つきやすい体質で結構昔はボロボロになるなんてしょっちゅうでした。それをどうにかしようとした時に気が付いたことがあります。相手は変えられない、なので自分が変わる。意味を掲示板などでいうのであればひどい書き込みは相手の感想であってそれがすべてじゃないことを知ってください。そして、あなたを応援できる人は世界中にいるし世界中の人全員に嫌われることもありません、そして、全員に好かれることもできません。</p>
       <p class="text"><a href="https://21emon.wjg.jp/cgi-bin/public/log_json/board.php" target="_blank">BBSへジャンプ</a></p>
       <h3>アップデート情報</h3>
-      <marquee style="border: 1px solid #fff; border-radius: 5px; background-color: rgba(0,0,0,0.4); color: #fff;" scrollamount="4">今回の更新では、全体的にデザイン変更、できるだけ色の統一化、マルチメディアのFrogTubeに追加し忘れた動画を追加、ホームのShow部分の映像を変更、等をしました。このページのバージョン26.2.0</marquee>
+      <marquee style="border: 1px solid #fff; border-radius: 5px; background-color: rgba(0,0,0,0.4); color: #fff;" scrollamount="4">今回の更新では、利用規約とプライバシーポリシーの改正、プシューログにコンテンツを追加、等をしました。このページのバージョン26.3.0</marquee>
       <h3>アップデート履歴</h3>
       <div class="update_log_box">
+        <div class="update_log_child_box">
+          <time class="update_log_time_box" datetime="2023-06-28">2023.06.28</time>
+          <p class="update_log_content_box">全体的にデザイン変更、できるだけ色の統一化、マルチメディアのFrogTubeに追加し忘れた動画を追加、ホームのShow部分の映像を変更、等をしました。当時のバージョン26.2.0</p>
+        </div>
         <div class="update_log_child_box">
           <time class="update_log_time_box" datetime="2023-06-27">2023.06.27</time>
           <p class="update_log_content_box">お問い合わせフォームの暗号化と安全性の配慮、ボタンをhoverではなくactiveに修正、等をしました。当時のバージョン26.1.2</p>
