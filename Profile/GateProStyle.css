@@ -1,33 +1,24 @@
 @charset "UTF-8";
-
 body {
   margin: 0;
-  padding: 0;
-}
-body::before {
+  padding: 0; 
   content: "";
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-/*
   background-attachment: fixed;
-  background-image: url("2.jpg");
-  疑似要素なので無効化とiPhoneでの背景固定のために無効にし代用で↓
-*/
-  background: url("2.jpg");
-  position: fixed;
+  background-image: url("1.jpg");
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
 }
 
 /*****************************************
   *----------------------------------
   |  ThisStyleVersion: 4.0.2      |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-06-25       |
+  |  LastUpdate: 2023-07-07       |
   |  ・。・ﾌﾟｼｭｰ・・・。          |
 ----------------------------------*
 ******************************************/
@@ -35,31 +26,20 @@ body::before {
 /* 色、模様、サイズ調整部
 ---------------------------------*/
 
-button {
-  margin: 10px;
-  background-color: #00ff00;
-  font-size: 20px;
-  border-radius: 5px;
-  width: 34%;
-  height: auto;
-  border-style: none;
-}
-button:hover {
-  background-color: #fff;
-}
-
 p {
  color: #111;
 }
+
 h1 {
  color: #0064ff;
 }
+
 h2 {
-  color: #ebff33;
+  color: #00ff00;
 }
 
 h3 {
-  color: #003399;
+  color: #80ff00;
 }
 
 ol {
@@ -91,31 +71,12 @@ li {
   list-style: none;
 }
 
-.accaunt {
-  display: flex;
-}
-
-.gaiyou {
-  background-color: rgba(225,225,225, 0.5);
-  display: flex;
-  margin-top: 150px;
-  padding: 10px;
-}
-
-.content {
-  display: block;
-}
-
-.yohaku {
-  padding: 10px;
-}
-
 a {
   text-decoration: none;
-  color: #0000ff;
+  color: #33bbff;
 }
 a:hover {
-  color: #00e600;
+  color: #00ffc6;
 }
 
 .article {
@@ -123,8 +84,8 @@ a:hover {
   width: auto;
   height: auto;
   background-color: rgba(255,255,255,0.3);
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   padding: 10px;
 }
 
@@ -156,38 +117,60 @@ a:hover {
   justify-content: center;
 }
 
-/* プロフィール調整部
----------------------------------*/
-
 .avator_image {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   margin: 10px;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
   justify-content: center;
+  border: 2px solid #fff;
 }
+
 .center {
   display: flex;
   justify-content: center;
 }
+
 .profile_component {
-  background-color: rgba(250,255,255,0.5);
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
+  background-color: rgba(0,0,0,0.7);
   border-radius: 10px;
-  margin: 150px;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 55vw;
+  geight:55vh;
+  margin: 20px;
+  overflow: hidden;
   height: auto;
+  padding: 10px;
+  box-shadow: 3px 3px 3px #000;
 }
-.profile {
-  display: block;
-  padding: 15px;
+
+.profle-r {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profle-l {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.profle-box {
+  background-color: #fff;
+  width: 70%;
+  height: 50%;
+  border-radius: 50px;
+  padding: 20px; 
+  margin: 5px;
+}
+
+summary {
+  text-align: center;
+  color: #00ffff;
+  margin: 10px;
+}
+summary:active {
+  color: #000fff;
 }
 
 /* レスポンシブ調整部
@@ -199,28 +182,6 @@ a:hover {
   width: auto;
   border-radius: 15px;
   margin: 50px;
-}
-
-a:active {
-  color: #00e600;
-}
-
-button:active {
-  background-color: #fff;
-}
-
-.gaiyou {
-  background-color: rgba(225,225,225, 0.5);
-  display: block;
-}
-
-.accaunt {
-  display: block;
-}
-
-button {
-  font-size: 20px;
-  width: 94%;
 }
 
 .gate_box {
