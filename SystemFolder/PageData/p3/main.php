@@ -4,7 +4,7 @@
       <h2 id="p2">プシューの部屋</h2>
       <h3>最近の出来事への一言</h3>
       <div class="photo_frame-1">
-        <a href="#modal"><img src="../../ImageData/kyouno_pusyuu/1.jpg" alt="画像" class="img-rs_boxsaidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
+        <a href="#modal"><img src="../../ImageData/kyouno_pusyuu/9.png" alt="画像" class="img-rs_boxsaidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;"></a>
       </div>
       <div id="modal" class="modal">
         <div class="modal_wrapper">
@@ -13,13 +13,13 @@
             <div class="modal_header">拡大画像</div>
             <div class="modal_border"></div>
             <div class="modal_message-box">
-            <img src="../../ImageData/kyouno_pusyuu/1.jpg" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
+            <img src="../../ImageData/kyouno_pusyuu/9.png" alt="画像" class="img-rs_saidai" oncontextmenu="return false;" onselectstart="return false;" onmousedown="return false;">
             </div>
           </div>
         </div>
       </div>
-      <p>postfix、dovecotなかなかうまく構築できなくて、なぜだか受信がうまくできないw。まぁそんなこんなで充実していて楽しいです。</p>
-      <p>更新日2023年04月18日</p>
+      <p>上記↑の画像これからのプロフィールアイコンです。こないだニコニコ生放送を視聴者が来ない中やってみたけどなんとなく楽しかった。最後変な終わり方したけどまた機会があったらまたやります。</p>
+      <p>更新日2023年07月11日</p>
       <h3>過去の出来事を語るプシュー</h3>
       <p>イヤーまぁツイッターでも書いたけど、プシューの中学生だったころの検索ワードが衝撃的だった。</p>
       <ol>
@@ -27,6 +27,13 @@
         <li>目を悪くする方法</li>
         <li>Android -x86</li>
         <li>MATTYB</li>
+        <li>ハルキンTV</li>
+        <li>日本ジャック</li>
+        <li>コジコジピックアップレンズ直し方</li>
+        <li>FMラジオの改造方法</li>
+        <li>FMラジオで航空無線を聞く方法</li>
+        <li>LEDで発電する方法</li>
+        <li>手作りで発電する方法</li>
         <li>amazon fire hd6 root化</li>
         <li>androidカスタムロムの入れ方</li>
         <li>抵抗コード表</li>
@@ -34,6 +41,7 @@
         <li>Wi-Fi千メートル飛ばす方法</li>
         <li>SIMなしで携帯回線を使うには？</li>
         <li>ゲルマニウムラジオの作り方</li>
+        <li>黒さび検波ラジオの作り方</li>
         <li>トランジスタラジオの作り方</li>
         <li>アプリの作り方</li>
         <li>トランジスタでアンプを作る方法</li>

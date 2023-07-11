@@ -15,9 +15,9 @@
   <script src="../../JsData/Script.js" type="text/javascript" charset="UTF-8"></script>
   <!--
       *----------------------------------
-      |  ThisPageVersion: 26.3.0      |
+      |  ThisPageVersion: 26.3.1      |
       |  © 2021-2023 By Pusyuu        |
-      |  LastUpdate: 2023-07-06       |
+      |  LastUpdate: 2023-07-11       |
       |  ・。・プシューページ㌨       |
     ----------------------------------*
     -->
