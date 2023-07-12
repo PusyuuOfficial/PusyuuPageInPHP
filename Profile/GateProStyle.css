@@ -16,9 +16,9 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 4.0.2      |
+  |  ThisStyleVersion: 4.0.3      |
   |  © 2021-2023 By Pusyuu        |
-  |  LastUpdate: 2023-07-07       |
+  |  LastUpdate: 2023-07-12       |
   |  ・。・ﾌﾟｼｭｰ・・・。          |
 ----------------------------------*
 ******************************************/
@@ -168,6 +168,7 @@ summary {
   text-align: center;
   color: #00ffff;
   margin: 10px;
+  cursor: pointer;
 }
 summary:active {
   color: #000fff;
