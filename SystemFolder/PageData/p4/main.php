@@ -5,21 +5,29 @@
       <h3>ニコニコ動画始めました！！</h3>
       <p>ニコニコ動画では今まで動画としてこのウェブサイトに貼ってあった動画や、</p>
       <p>新規での動画は、皆さんに紹介したいこと等をアップロードしていきたいです。</p>
-      <p class="text"><a href="https://www.nicovideo.jp/user/125051420" target="_blank">プシューわんこのニコニコ動画へジャンプ</a></p>
+      <p class="text"><a href="https://www.nicovideo.jp/user/125051420" target="_blank">プシューわんこニコニコ動画へジャンプ</a></p>
+      <h3>ユーチューブ始めました！！</h3>
+      <p>ユーチューブでは今まで動画としてこのウェブサイトに貼ってあった動画や、</p>
+      <p>新規での動画は、皆さんに紹介したいこと等をアップロードしていきたいです。</p>
+      <p class="text"><a href="https://www.youtube.com/@PusyuuOfficial" target="_blank">プシューサービス公式ユーチューブ動画へジャンプ</a></p>
       <h3>ツイッター始めました！！</h3>
       <p>ツイッターではプシューサービスの最新情報などを発信していきたいです。</p>
       <p>とうとうツイッターやめました、一年間ありがとうございました。様々な人、年代の方々と様々な話をしましたが、どれも良い思い出です。合計35人のフォロワー、皆さんありがとう、私は嬉しかったです。</p>
       <p>と思いきやまた始めました今回からはプシューサービスの最新情報発信を目的としてやっていきます。</p>
-      <p class="text"><a href="https://twitter.com/Pusyuuofficial" target="_blank">プシュー公式ツイッターへジャンプ</a></p>
+      <p class="text"><a href="https://twitter.com/Pusyuuofficial" target="_blank">プシューサービス公式ツイッターへジャンプ</a></p>
       <h3>BBS始めました！！</h3>
       <p>BBSでは、皆さんが自由に会話できるコミュニケーションの場です。</p>
       <p>※不適切な言動や、暴言発言はできるだけご遠慮ください。使用は、利用規約、プライバシーポリシーに同意し自己責任でよろしくお願いします。</p>
       <p>傷つきやすい方へ、私管理者も結構傷つきやすい体質で結構昔はボロボロになるなんてしょっちゅうでした。それをどうにかしようとした時に気が付いたことがあります。相手は変えられない、なので自分が変わる。意味を掲示板などでいうのであればひどい書き込みは相手の感想であってそれがすべてじゃないことを知ってください。そして、あなたを応援できる人は世界中にいるし世界中の人全員に嫌われることもありません、そして、全員に好かれることもできません。</p>
       <p class="text"><a href="https://21emon.wjg.jp/cgi-bin/public/log_json/board.php" target="_blank">BBSへジャンプ</a></p>
       <h3>アップデート情報</h3>
-      <marquee style="border: 1px solid #fff; border-radius: 5px; background-color: rgba(0,0,0,0.4); color: #fff;" scrollamount="4">今回の更新では、更に利用規約とプライバシーポリシーの改正、サファリ非対応のバックグラウンド画像を復元、等をしました。このページのバージョン26.3.1</marquee>
+      <marquee style="border: 1px solid #fff; border-radius: 5px; background-color: rgba(0,0,0,0.4); color: #fff;" scrollamount="4">今回の更新では、更の更に利用規約とプライバシーポリシーの改正とページのバグ修正、等をしました。このページのバージョン26.3.2</marquee>
       <h3>アップデート履歴</h3>
       <div class="update_log_box">
+        <div class="update_log_child_box">
+          <time class="update_log_time_box" datetime="2023-07-11">2023.07.11</time>
+          <p class="update_log_content_box">更に利用規約とプライバシーポリシーの改正、サファリ非対応のバックグラウンド画像を復元、等をしました。当時のバージョン26.3.1</p>
+        </div>
         <div class="update_log_child_box">
           <time class="update_log_time_box" datetime="2023-07-06">2023.07.06</time>
           <p class="update_log_content_box">利用規約とプライバシーポリシーの改正、プシューログにコンテンツを追加、等をしました。当時のバージョン26.3.0</p>
