@@ -5,6 +5,17 @@
       <p>ここでは、プシューが書いたブログを見ることができます。どのようなジャンルをプシューは書くのか：大抵はSNS等でたまたま投稿したものがよかったと感じた時のコンテンツや、日常的に考え事をしていて煮詰まった時や、過去のことをかき出したくなったことなどをブログという形で配信しています。どういう方に向いているか：<strong style="color: #d5ff00;">あまり知られてない価値観を知りたい方、機械的なことを知りたい方、暇なんだけどやることがない方、等など</strong>におすすめです。注意点：上記でも説明した通りプシューの主観が入ることがあります。なので”こういう考えもあるんだな～”程度で閲覧していただけると嬉しいです。不備があればフィードバックページよりお知らせください。できる限り、改善できるよう取り組みます。</p>
       <div class="yokoori">
         <article class="blog_card">
+          <a href="../b-mutidounaru/content.php" class="blog_card_link">
+            <span class="blog_card_label">New</span>
+            <img class="blog_card_image" src="../../ImageData/mayoi.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
+            <div class="blog_card_info">
+              <time class="blog_card_time" datetime="2023-07-14">2023.07.14</time>
+              <h1 class="blog_card_headline">無知は戦いに不利になってしまう</h1>
+              <p class="blog_card_description">無知ってネガティブなイメージですが無知だとどのようことが起きるのかを記事にしました。</p>
+            </div>
+          </a> 
+        </article>
+        <article class="blog_card">
           <a href="../b-tukaimawasi/content.php" class="blog_card_link">
             <span class="blog_card_label">New</span>
             <img class="blog_card_image" src="../../ImageData/mayoi.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
