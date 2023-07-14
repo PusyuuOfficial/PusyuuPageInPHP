@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
   margin: 0;
   padding: 0; 
@@ -16,7 +17,7 @@ body {
 
 /*****************************************
   *----------------------------------
-  |  ThisStyleVersion: 4.0.3      |
+  |  ThisStyleVersion: 4.0.4      |
   |  © 2021-2023 By Pusyuu        |
   |  LastUpdate: 2023-07-12       |
   |  ・。・ﾌﾟｼｭｰ・・・。          |
@@ -79,6 +80,25 @@ a:hover {
   color: #00ffc6;
 }
 
+.animation {
+  opacity: 0;
+  transform: translateY(50px);
+  animation-name: fadeInAnimation;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .article {
   margin: 10px;
   width: auto;
@@ -137,7 +157,7 @@ a:hover {
   background-color: rgba(0,0,0,0.7);
   border-radius: 10px;
   width: 55vw;
-  geight:55vh;
+  height:55vh;
   margin: 20px;
   overflow: hidden;
   height: auto;
