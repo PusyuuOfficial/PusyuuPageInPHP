@@ -7,7 +7,7 @@
         <article class="blog_card">
           <a href="../b-mutidounaru/content.php" class="blog_card_link">
             <span class="blog_card_label">New</span>
-            <img class="blog_card_image" src="../../ImageData/mayoi.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
+            <img class="blog_card_image" src="../../ImageData/kimochi_negative_man.png" alt="ブログイメージ" oncontextmenu="return false;" onselse;" onselectstart="return false;" onmousedown="return false;"ボタン" border="0">
             <div class="blog_card_info">
               <time class="blog_card_time" datetime="2023-07-14">2023.07.14</time>
               <h1 class="blog_card_headline">無知は戦いに不利になってしまう</h1>

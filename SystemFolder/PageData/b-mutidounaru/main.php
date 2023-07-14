@@ -31,6 +31,7 @@
           <p>感情コントロールに無知だと面白くなってしまう。（私の感想です。）</p>
           <p>無知は新しいことへの挑戦や無理と言われた難題に挑戦しやすい。</p>
           <p>今回は以上です。参考になれば幸いです。</p>
+          <p>このページを見た人へのおすすめ↓</p>
           <ol>
             <li><a href="http://21emon.wjg.jp/SystemFolder/PageData/b-tukaimawasi/content.php">人に押し付けをせずに話す方法</a></li>
             <li><a href="http://21emon.wjg.jp/SystemFolder/PageData/b-denwanasiseikatu/content.php">ネガティブな自分を打ち消す方法</a></li>
